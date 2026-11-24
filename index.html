@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en-IN" data-state="afternoon" class="ph-on no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kudos Restro Lounge — Rooftop restaurant with a Lake Pichola view, Udaipur</title>
+<meta name="description" content="Kudos is a rooftop restro lounge in Udaipur with a Lake Pichola and City Palace view. Multi-cuisine food, cocktails, sunset dining and music nights — Saturday Socials and Purani Playlist. Book a table on WhatsApp.">
+<link rel="canonical" href="https://ayush-tripathii.github.io/Kudos-4/">
+<meta name="theme-color" content="#F3F1EC">
+<meta name="color-scheme" content="light only">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Kudos Restro Lounge">
+<meta property="og:title" content="Kudos — Rooftop restro lounge, Udaipur">
+<meta property="og:description" content="Good food. Great drinks. Beautiful views. Music that sets the mood. A rooftop over Lake Pichola, facing the City Palace.">
+<meta property="og:url" content="https://ayush-tripathii.github.io/Kudos-4/">
+<meta property="og:image" content="https://ayush-tripathii.github.io/Kudos-4/assets/og-kudos.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A table on the Kudos rooftop terrace looking across Lake Pichola to the City Palace, Udaipur">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kudos — Rooftop restro lounge, Udaipur">
+<meta name="twitter:description" content="Come for the view. Stay for the vibe. Lake Pichola, City Palace, good food and music until late.">
+<meta name="twitter:image" content="https://ayush-tripathii.github.io/Kudos-4/assets/og-kudos.jpg">
+
+<!-- Icons -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Fonts: Fontshare (ITF FFL), self-hosted, latin only -->
+<link rel="preload" href="assets/fonts/clash-display-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/switzer-400.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Live state, before first paint: pick the IST time-of-day so only the right hero
+     photograph is requested. site.js refines the golden-hour edge with the real sunset. -->
+<script>
+(function(){
+  var d=document.documentElement; d.classList.remove('no-js'); d.classList.add('js');
+  var t=new Date(Date.now()+330*60000), m=t.getUTCHours()*60+t.getUTCMinutes(), s;
+  s = m>=60&&m<720?'closed': m<990&&m>=720?'afternoon': m>=990&&m<1140?'golden': m>=1140&&m<1320?'evening':'late';
+  d.setAttribute('data-state',s);
+  var H={"afternoon":"assets/img/hero-afternoon-480.avif 480w, assets/img/hero-afternoon-768.avif 768w, assets/img/hero-afternoon-1200.avif 1200w, assets/img/hero-afternoon-1920.avif 1920w, assets/img/hero-afternoon-2400.avif 2400w","closed":"assets/img/hero-afternoon-480.avif 480w, assets/img/hero-afternoon-768.avif 768w, assets/img/hero-afternoon-1200.avif 1200w, assets/img/hero-afternoon-1920.avif 1920w, assets/img/hero-afternoon-2400.avif 2400w","golden":"assets/img/hero-golden-480.avif 480w, assets/img/hero-golden-768.avif 768w, assets/img/hero-golden-1200.avif 1200w, assets/img/hero-golden-1920.avif 1920w, assets/img/hero-golden-2400.avif 2400w","evening":"assets/img/hero-evening-480.avif 480w, assets/img/hero-evening-768.avif 768w, assets/img/hero-evening-1200.avif 1200w, assets/img/hero-evening-1920.avif 1920w, assets/img/hero-evening-2400.avif 2400w","late":"assets/img/hero-late-480.avif 480w, assets/img/hero-late-768.avif 768w, assets/img/hero-late-1200.avif 1200w, assets/img/hero-late-1920.avif 1920w, assets/img/hero-late-2400.avif 2400w"};
+  var p=H[s]; if(p){var l=document.createElement('link');l.rel='preload';l.as='image';l.type='image/avif';l.setAttribute('imagesrcset',p);l.setAttribute('imagesizes','(min-width:1024px) 58vw, 100vw');l.setAttribute('fetchpriority','high');document.head.appendChild(l);}
+})();
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+
+<!-- Single source of truth for everything the client must supply. -->
+<script type="application/json" id="kudos-config">
+{
+  "showPlaceholders": false,
+  "geo": { "lat": 24.5764, "lng": 73.6835, "note": "Ambavgarh, Lake Pichola view, Udaipur" },
+  "phone": "+91 98290 12345",
+  "whatsapp": "+919829012345",
+  "instagram": "https://instagram.com/kudos.udaipur",
+  "menuPdf": "#food",
+  "mapsUrl": "https://maps.google.com/?q=Kudos+Restro+Lounge+Udaipur",
+  "hours": {
+    "note": "12:00 PM to 1:00 AM daily",
+    "open": "12:00", "close": "01:00", "lastOrders": "00:30",
+    "days": { "mon": ["12:00","01:00"], "tue": ["12:00","01:00"], "wed": ["12:00","01:00"], "thu": ["12:00","01:00"], "fri": ["12:00","01:00"], "sat": ["12:00","01:00"], "sun": ["12:00","01:00"] }
+  },
+  "recurring": [
+    { "name": "Saturday Socials", "weekday": 6, "detail": "Every Saturday from 8 PM · Live DJ sets & rooftop energy" },
+    { "name": "Purani Playlist", "weekday": 3, "detail": "Every Wednesday from 7:30 PM · Retro classics & nostalgic melodies" }
+  ],
+  "events": [
+    { "name": "Sunset Acoustic Sessions", "date": "Every Sunday", "detail": "Live acoustic guitar by the railing from 5:30 PM" }
+  ]
+}
+</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","@id":"https://ayush-tripathii.github.io/Kudos-4/#restaurant","name":"Kudos Restro Lounge","description":"Rooftop restro lounge and multi-cuisine restaurant in Udaipur with a Lake Pichola and City Palace view. Sunset dining, cocktails, and music nights including Saturday Socials and Purani Playlist.","url":"https://ayush-tripathii.github.io/Kudos-4/","image":["https://ayush-tripathii.github.io/Kudos-4/assets/og-kudos.jpg"],"servesCuisine":["Rajasthani","North Indian","Italian","Mexican","Pan-Asian","Multi-cuisine"],"priceRange":"₹1,200 approx.","telephone":"+91 98290 12345","menu":"https://ayush-tripathii.github.io/Kudos-4/#food","hasMap":"https://maps.google.com/?q=Kudos+Restro+Lounge+Udaipur","acceptsReservations":"True","address":{"@type":"PostalAddress","streetAddress":"Top Floor, 57 Ambavgarh, near Lake Pichola","addressLocality":"Udaipur","addressRegion":"Rajasthan","postalCode":"313001","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"24.5764","longitude":"73.6835"},"openingHours":["Mo-Su 12:00-01:00"],"sameAs":["https://instagram.com/kudos.udaipur"],"founder":{"@type":"Person","name":"Vathsaal Jogani"},"event":[{"@type":"Event","name":"Saturday Socials","eventSchedule":{"@type":"Schedule","byDay":"https://schema.org/Saturday","repeatFrequency":"P1W"},"location":{"@id":"https://ayush-tripathii.github.io/Kudos-4/#restaurant"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where is Kudos Restro Lounge in Udaipur?","acceptedAnswer":{"@type":"Answer","text":"Top floor, 57 Ambavgarh, Udaipur. We're on the roof, so look up, not around. Tell the auto driver Ambavgarh, near Lake Pichola and you'll land at the door. The view across Lake Pichola to the City Palace starts the moment you reach the top."}},{"@type":"Question","name":"Is there parking near Kudos, and how do I get there?","acceptedAnswer":{"@type":"Answer","text":"Street parking nearby; designated lots available. Old-city lanes are narrow and get narrower after dark. An auto or cab to the door is the stress-free option. If you're driving, park first and walk the last few minutes."}},{"@type":"Question","name":"What are the opening hours of Kudos Restro Lounge?","acceptedAnswer":{"@type":"Answer","text":"Lunch from noon, golden hour around sunset, and the roof stays open until late. Kitchen last orders 12:30 AM."}},{"@type":"Question","name":"Which is the best table for sunset at Kudos?","acceptedAnswer":{"@type":"Answer","text":"The railing tables facing the lake. Ask for it by name when you book; it goes first. Sunset today is at —, so aim to be seated thirty minutes before."}},{"@type":"Question","name":"What happens at the rooftop if it rains?","acceptedAnswer":{"@type":"Answer","text":"Covered roof and an enclosed glass room. The terrace sits under a canopy and the glass room is fully enclosed, so rain changes the view, not the plan. On properly stormy nights we'll move you inside before you have to ask."}},{"@type":"Question","name":"Can Kudos host large groups and private celebrations?","acceptedAnswer":{"@type":"Answer","text":"Up to 40 seated; larger by arrangement. Birthdays, anniversaries, the office dinner nobody wanted to organise. Message us the date and the headcount and we'll come back with a layout and a menu."}},{"@type":"Question","name":"Is there a dress code at Kudos?","acceptedAnswer":{"@type":"Answer","text":"Smart casual. Nobody's checking collars. It's a nice room with a nice view; most people dress for it, especially on Saturdays."}},{"@type":"Question","name":"Is Kudos family friendly? Are children allowed?","acceptedAnswer":{"@type":"Answer","text":"Welcome for lunch and early dinner. Families do well at lunch and through golden hour. After ten the music is louder and the roof leans grown-up, so plan the early slot if you're bringing little ones."}},{"@type":"Question","name":"Does Kudos serve vegetarian food?","acceptedAnswer":{"@type":"Answer","text":"Separate veg preparation; Jain on request. Vegetarian isn't an afterthought here: half the dishes on this page are veg, the Sham Savera and the lasagna included."}},{"@type":"Question","name":"How far in advance should I book a table at Kudos?","acceptedAnswer":{"@type":"Answer","text":"Same day on weeknights; 1–2 days for Saturdays. Weeknights, a few hours ahead usually works. Saturdays, sunset tables and groups go first, so book those a day or two out."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ───────────────────────── TOP BAR ───────────────────────── -->
+<header class="topbar" id="top">
+  <div class="topbar__in wrap">
+    <a class="brand" href="#top" aria-label="Kudos Restro Lounge — back to top">
+      <span class="brand__icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 10a3 3 0 1 0 6 0"/><path d="M12 18v3"/></svg>
+      </span>
+      <div class="brand__text">
+        <span class="brand__word">KUDOS</span>
+        <span class="brand__sub">Rooftop · Udaipur</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#tonight">Tonight</a><a href="#food">Food &amp; Drinks</a><a href="#story">Story</a><a href="#hours">Hours</a><a href="#events">Events</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+    </nav>
+    <div class="topbar__end">
+      <p class="pill" aria-live="polite"><span class="pill__dot" aria-hidden="true"></span><span data-live="pill">Open daily · 12 PM – 1 AM</span></p>
+      <a class="btn btn--clay btn--sm topbar__cta" href="#visit">Reserve Table</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ───────────────────────── 01 HERO ───────────────────────── -->
+<section class="hero wrap" aria-labelledby="h1">
+  <div class="bento">
+    <figure class="tile tile--a hero__media">
+      <picture class="pic hero-pic drift" style="--pos:42% 50%;--lqip:url(data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7ICXDEkYmpLY1SEvuwsAA/tNw44yLgDboR9pBQYxCGs6XDHpsJW0XV9uU7FRqE9A4XoVGz/IRCyZpxYkyVpYPI+h5Y+h6nRF3mmMzfEYktIhAF0gmB2WFpkeMCzMVHG+0BjvqPvAhCDv2tr240UOBdwPOcE1oQymLsADdcAAA)" data-for="afternoon closed"><source type="image/avif" srcset="assets/img/hero-afternoon-480.avif 480w, assets/img/hero-afternoon-768.avif 768w, assets/img/hero-afternoon-1200.avif 1200w, assets/img/hero-afternoon-1920.avif 1920w, assets/img/hero-afternoon-2400.avif 2400w" sizes="(min-width:1024px) 58vw, 100vw"><source type="image/webp" srcset="assets/img/hero-afternoon-480.webp 480w, assets/img/hero-afternoon-768.webp 768w, assets/img/hero-afternoon-1200.webp 1200w, assets/img/hero-afternoon-1920.webp 1920w, assets/img/hero-afternoon-2400.webp 2400w" sizes="(min-width:1024px) 58vw, 100vw"><img src="assets/img/hero-afternoon-1200.jpg" srcset="assets/img/hero-afternoon-480.jpg 480w, assets/img/hero-afternoon-768.jpg 768w, assets/img/hero-afternoon-1200.jpg 1200w, assets/img/hero-afternoon-1920.jpg 1920w, assets/img/hero-afternoon-2400.jpg 2400w" sizes="(min-width:1024px) 58vw, 100vw" width="2400" height="1605" alt="A glass-topped table set with plates and a cocktail on the Kudos rooftop, Lake Pichola and the City Palace across the water in daylight" loading="lazy" fetchpriority="high" decoding="async"></picture>
+      <picture class="pic hero-pic drift" style="--pos:40% 55%;--lqip:url(data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JYwCdAYvg3xsRxlId9jMcQAD+kB4zR1MvuelhqTHsBVtN81sH67wzT895U1BljZsRjMzz+UwV0DD39ZJ9AT6liX7W3Gk1X01F7JaZRmdtS0kdX4txlTqOsznb+DD6qcQ/MsuvDdRBqSQtukVYkXWZpc8bkA4yXxKeEHGu92tzUoTh8bgAAA==)" data-for="golden"><source type="image/avif" srcset="assets/img/hero-golden-480.avif 480w, assets/img/hero-golden-768.avif 768w, assets/img/hero-golden-1200.avif 1200w, assets/img/hero-golden-1920.avif 1920w, assets/img/hero-golden-2400.avif 2400w" sizes="(min-width:1024px) 58vw, 100vw"><source type="image/webp" srcset="assets/img/hero-golden-480.webp 480w, assets/img/hero-golden-768.webp 768w, assets/img/hero-golden-1200.webp 1200w, assets/img/hero-golden-1920.webp 1920w, assets/img/hero-golden-2400.webp 2400w" sizes="(min-width:1024px) 58vw, 100vw"><img src="assets/img/hero-golden-1200.jpg" srcset="assets/img/hero-golden-480.jpg 480w, assets/img/hero-golden-768.jpg 768w, assets/img/hero-golden-1200.jpg 1200w, assets/img/hero-golden-1920.jpg 1920w, assets/img/hero-golden-2400.jpg 2400w" sizes="(min-width:1024px) 58vw, 100vw" width="2400" height="1630" alt="The Kudos rooftop dining terrace in late-afternoon light, Lake Pichola and the Aravalli hills beyond the railing" loading="lazy" fetchpriority="high" decoding="async"></picture>
+      <picture class="pic hero-pic drift" style="--pos:45% 55%;--lqip:url(data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUAlgECKL/i/4AsbOBpQrtgXgAP3Op3oWZjpNxWO2NWMWF2S+pnkY48df80KJt68fq0g7FhMYCIXnnl6wiVQIPBekmpReFrqm+c5TfIPqNQGBbd8CsPfPpdwf/81LFZGpnMZP56g8qI2dnXJinEuIh1nbQGImNgAA)" data-for="evening"><source type="image/avif" srcset="assets/img/hero-evening-480.avif 480w, assets/img/hero-evening-768.avif 768w, assets/img/hero-evening-1200.avif 1200w, assets/img/hero-evening-1920.avif 1920w, assets/img/hero-evening-2400.avif 2400w" sizes="(min-width:1024px) 58vw, 100vw"><source type="image/webp" srcset="assets/img/hero-evening-480.webp 480w, assets/img/hero-evening-768.webp 768w, assets/img/hero-evening-1200.webp 1200w, assets/img/hero-evening-1920.webp 1920w, assets/img/hero-evening-2400.webp 2400w" sizes="(min-width:1024px) 58vw, 100vw"><img src="assets/img/hero-evening-1200.jpg" srcset="assets/img/hero-evening-480.jpg 480w, assets/img/hero-evening-768.jpg 768w, assets/img/hero-evening-1200.jpg 1200w, assets/img/hero-evening-1920.jpg 1920w, assets/img/hero-evening-2400.jpg 2400w" sizes="(min-width:1024px) 58vw, 100vw" width="2400" height="1591" alt="The rooftop at dusk with table lamps lit, the bar glowing amber and city lights coming on over the hills" loading="lazy" fetchpriority="high" decoding="async"></picture>
+      <picture class="pic hero-pic drift" style="--pos:30% 50%;--lqip:url(data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgA0dky9BGHCHJHL0kAMtO5iEP03rNy4lzLNUQT6BYhpFLUqe/AEl8Waya3Zx23e3jmbbxciV9AkCI/AEebNxTFfT6DKIGKCNeR0ZMFmOmzy6JbXqiEkQroQ9SfYGPk/CDpHtGH4ve2sX089T4sRyWclZwaldWJcDwgmUOiPazcEGeAA==)" data-for="late"><source type="image/avif" srcset="assets/img/hero-late-480.avif 480w, assets/img/hero-late-768.avif 768w, assets/img/hero-late-1200.avif 1200w, assets/img/hero-late-1920.avif 1920w, assets/img/hero-late-2400.avif 2400w" sizes="(min-width:1024px) 58vw, 100vw"><source type="image/webp" srcset="assets/img/hero-late-480.webp 480w, assets/img/hero-late-768.webp 768w, assets/img/hero-late-1200.webp 1200w, assets/img/hero-late-1920.webp 1920w, assets/img/hero-late-2400.webp 2400w" sizes="(min-width:1024px) 58vw, 100vw"><img src="assets/img/hero-late-1200.jpg" srcset="assets/img/hero-late-480.jpg 480w, assets/img/hero-late-768.jpg 768w, assets/img/hero-late-1200.jpg 1200w, assets/img/hero-late-1920.jpg 1920w, assets/img/hero-late-2400.jpg 2400w" sizes="(min-width:1024px) 58vw, 100vw" width="2400" height="1578" alt="Night on the Kudos terrace: the City Palace lit up across Lake Pichola beyond the set tables" loading="lazy" fetchpriority="high" decoding="async"></picture>
+      <figcaption class="chip chip--float chip--hero">
+        <svg class="chip__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span data-live="heroCaption">Lake Pichola · West Terrace · City Palace View</span>
+      </figcaption>
+    </figure>
+
+    <div class="tile tile--b hero__intro">
+      <div class="hero__badge-row">
+        <p class="label">Rooftop Restro Lounge · Udaipur</p>
+        <span class="badge-accent">360° Panorama</span>
+      </div>
+      <h1 id="h1" class="h1">Udaipur has its own rhythm. <span class="h1__accent">We have our own way of playing it.</span></h1>
+      <p class="lede">Good food. Great drinks. Panoramic lake vistas. Music that sets the mood.</p>
+      <p class="body">A covered rooftop above the old city, looking straight across Lake Pichola to the illuminated City Palace. Long breezy lunches, sundowner cocktails as the sun drops, and music until late.</p>
+      <div class="hero__tags">
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Rajasthani &amp; Global</span>
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 22h8M12 11v11M19 3l-7 8-7-8h14z"/></svg>Artisan Cocktails</span>
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>Sunset Dining</span>
+      </div>
+      <div class="actions">
+        <a class="btn btn--green btn--lg" href="#food">
+          <span>Explore the Food</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a class="btn btn--line" href="#visit">Reserve Table</a>
+      </div>
+    </div>
+
+    <div class="tile tile--c tile--forest clock" aria-label="Current time in Udaipur">
+      <div class="clock__top">
+        <p class="label">Udaipur Live Time</p>
+        <span class="clock__ist-tag">IST (UTC+5:30)</span>
+      </div>
+      <p class="clock__time tnum" data-live="clock" aria-hidden="true">--:--</p>
+      <p class="clock__state"><span class="dot" aria-hidden="true"></span><span data-live="stateLabel">Open Now</span></p>
+    </div>
+
+    <a class="tile tile--d tile--clay cta" href="#visit">
+      <div class="cta__top">
+        <span class="label">Instant Confirmation</span>
+        <svg class="cta__arrow-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <span class="cta__h">Reserve a table.</span>
+      <span class="cta__s">Pick your time &amp; table — confirms straight on WhatsApp.</span>
+    </a>
+
+    <div class="tile tile--e tile--stone vitals">
+      <dl>
+        <div>
+          <dt><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Hours</dt>
+          <dd><span class="ph" data-ph="HOURS">12:00 PM – 1:00 AM daily</span></dd>
+        </div>
+        <div>
+          <dt><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg> Avg for two</dt>
+          <dd><span class="ph" data-ph="PRICE_RANGE">₹1,200 approx.</span></dd>
+        </div>
+      </dl>
+      <a class="link" data-live="mapsLink" href="#visit">Get directions to rooftop</a>
+    </div>
+
+    <div class="tile tile--f tile--sand hero__vibe">
+      <div class="vibe__quote-mark" aria-hidden="true">“</div>
+      <p class="statement-sm">Come for the view. Stay for the vibe.</p>
+      <p class="small vibe__meta">Sunset today at <strong class="tnum" data-live="sunsetShort">—</strong> · Best vista from <span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">the lake railing tables</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 02 TONIGHT ───────────────────────── -->
+<section id="tonight" class="sect wrap" aria-labelledby="tonight-h">
+  <div class="panel panel--forest">
+    <header class="sect__head sect__head--onforest">
+      <div class="sect__pill-row">
+        <p class="label">02 — Live Experience</p>
+        <span class="live-pill"><span class="pulse-dot"></span> Live in Udaipur</span>
+      </div>
+      <h2 id="tonight-h" class="h2">What the roof is doing <span data-live="todayWord">today</span>.</h2>
+    </header>
+    <div class="tonight">
+      <article class="tt tt--now rv">
+        <div class="tt__head">
+          <p class="label">Current Atmosphere</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </span>
+        </div>
+        <p class="tt__state" data-live="stateBig">Afternoon</p>
+        <p class="tt__mood" data-live="mood">Lake breeze, long lunches and the palace in full daylight.</p>
+      </article>
+      <article class="tt tt--on rv">
+        <div class="tt__head">
+          <p class="label">Music &amp; Energy</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </span>
+        </div>
+        <p class="tt__event" data-live="eventName">Just the roof</p>
+        <p class="tt__detail" data-live="eventDetail">Nothing ticketed tonight. The playlist, the lake and a table with your name on it.</p>
+        <a class="link link--onforest" href="#events">View upcoming nights</a>
+      </article>
+      <article class="tt tt--sun rv">
+        <div class="tt__head">
+          <p class="label">Golden Hour Sunset</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          </span>
+        </div>
+        <p class="tt__big tnum"><span data-live="sunset">—</span></p>
+        <p class="tt__detail" data-live="sunsetDetail">Today's sunset over Lake Pichola &amp; the Aravalli hills, calculated for this rooftop.</p>
+        <div class="meter" aria-hidden="true"><span data-live="sunMeter"></span></div>
+      </article>
+      <a class="tt tt--book rv" data-live="waTonight" href="#visit">
+        <div class="tt__head">
+          <span class="label">Fast WhatsApp Booking</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </div>
+        <span class="tt__book">Book tonight on WhatsApp</span>
+        <span class="tt__detail">Tell us your time and party size; we confirm on the same chat in seconds.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 03 FOOD ───────────────────────── -->
+<section id="food" class="sect wrap" aria-labelledby="food-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">03 — The food</p>
+      <h2 id="food-h" class="h2 h2--xl">Not too fine. Never ordinary.</h2>
+    </div>
+    <div class="food__intro">
+      <p class="lede">A menu doesn't need fifty ingredients in every dish. A plate doesn't need an architectural presentation.</p>
+      <p class="body">Rajasthani heat from the handi and the tandoor, a handful of favourites from further away, and one rule in the kitchen: get the basics absolutely right.</p>
+    </div>
+  </header>
+
+  <div class="filters" role="toolbar" aria-label="Filter dishes">
+    <button class="fchip" aria-pressed="true" data-filter="all">All <span class="tnum">10</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="small">Small plates <span class="tnum">4</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="main">Mains <span class="tnum">6</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="indian">Rajasthani &amp; Indian <span class="tnum">6</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="intl">International <span class="tnum">4</span></button>
+    <p class="filters__key small"><span class="sig" aria-hidden="true"></span> Signature <span class="vg vg--v" aria-hidden="true"></span> Veg <span class="vg vg--n" aria-hidden="true"></span> Non-veg</p>
+  </div>
+  <p class="sr-only" aria-live="polite" data-live="filterStatus"></p>
+
+  <ul class="dishes" role="list" data-dishes>
+    <li class="dish" data-cat="main indian" style="view-transition-name:dish-0">
+      <button class="dish__btn" data-lb="food" aria-label="Laal Maas — open larger photo">
+        <picture class="pic hov" style="--pos:50% 45%;--lqip:url(data:image/webp;base64,UklGRlABAABXRUJQVlA4IEQBAADwBwCdASoYACQAPu1urlIppiQipWsxMB2JZgCdMxAv/qZqUAI3nhSI8KbJiV95RgteB5HbHi/RnK47EAU5W/W6FGfgHigbcAAA/opGdYK8djpIOCx+j0Srffg120b654OXoYVjo+Pq26CW40/ePIbHNfGR8/FAkvD7+ZJQh05oq/5Mq/be4LS1j9QX5KAb/M1WiQeepCCreXdmsPx5I7Ezkxl0FzdSNJ2UeHlrvrvlsP+yquYhaDbh/L39cdTTmlK+ovKJ90RkggnuXB3OFF6cLGuEWNBULZtcrZVSEN2leX0y40+156fOJNiwvg0n4jgIz6CVtytWMiGQFyq9AjyL3x6Wn7kibBA5lfittuSzrP18jEZCn6P2KrFofbLAurfXcIadzNpNT0oOliomLwuBr07hoelxJQzC9kEInNFlqTxAAAA=)" data-cap="Laal Maas — Mutton on the bone, chilli-red and slow-cooked the Rajasthani way."><source type="image/avif" srcset="assets/img/dish-laal-maas-480.avif 480w, assets/img/dish-laal-maas-768.avif 768w, assets/img/dish-laal-maas-1200.avif 1200w, assets/img/dish-laal-maas-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-laal-maas-480.webp 480w, assets/img/dish-laal-maas-768.webp 768w, assets/img/dish-laal-maas-1200.webp 1200w, assets/img/dish-laal-maas-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-laal-maas-1200.jpg" srcset="assets/img/dish-laal-maas-480.jpg 480w, assets/img/dish-laal-maas-768.jpg 768w, assets/img/dish-laal-maas-1200.jpg 1200w, assets/img/dish-laal-maas-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="Close-up of Laal Maas: mutton on the bone in a deep red chilli gravy, Kudos bowl" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        <span class="dish__sig-badge">Signature</span>
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Laal Maas</h3>
+        <div class="dish__tags">
+          <span class="vg vg--n" title="Non-vegetarian"><span class="sr-only">Non-vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Mutton on the bone, chilli-red and slow-cooked the Rajasthani way.</p>
+    </li>
+    <li class="dish" data-cat="small indian" style="view-transition-name:dish-1">
+      <button class="dish__btn" data-lb="food" aria-label="Chicken Seekh o Naan — open larger photo">
+        <picture class="pic hov" style="--pos:55% 58%;--lqip:url(data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACwBQCdASoYACQAPu1irk6ppSSpsBVaqTAdiWMAxkAuPjLgg01ZwWB6kwRGQb0zjXXi6mAm5yYA/vFl7qURawDZXPa4QB2llkCpvugdfxE3atdyz5t3v9rK4dvkT6aKT9q43n/3DsGx872yG4DQBnoNj92n2GzzV0Ha8Ps87b4jkvA1NWFLasA8k2tPbNvekl36dJFxaXG07eP/wurqZRB5o76nwtAu/u7xY+iSvqd21aoAdiopvqV3d9IVhrViTc+K3tR7idlVGaAAAAA=)" data-cap="Chicken Seekh o Naan — Seekh kebab rolled in naan, still smoking from the coal."><source type="image/avif" srcset="assets/img/dish-seekh-naan-480.avif 480w, assets/img/dish-seekh-naan-768.avif 768w, assets/img/dish-seekh-naan-1200.avif 1200w, assets/img/dish-seekh-naan-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-seekh-naan-480.webp 480w, assets/img/dish-seekh-naan-768.webp 768w, assets/img/dish-seekh-naan-1200.webp 1200w, assets/img/dish-seekh-naan-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-seekh-naan-1200.jpg" srcset="assets/img/dish-seekh-naan-480.jpg 480w, assets/img/dish-seekh-naan-768.jpg 768w, assets/img/dish-seekh-naan-1200.jpg 1200w, assets/img/dish-seekh-naan-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="Chicken seekh kebab rolled in naan, cut into pieces, with charcoal smoke rising from the plate" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        <span class="dish__sig-badge">Signature</span>
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Chicken Seekh o Naan</h3>
+        <div class="dish__tags">
+          <span class="vg vg--n" title="Non-vegetarian"><span class="sr-only">Non-vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Seekh kebab rolled in naan, still smoking from the coal.</p>
+    </li>
+    <li class="dish" data-cat="small intl" style="view-transition-name:dish-2">
+      <button class="dish__btn" data-lb="food" aria-label="Wontons — open larger photo">
+        <picture class="pic hov" style="--pos:58% 62%;--lqip:url(data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC1FwAB1TYm5OBzcz/YPmgA/uO6p5swt/R2okvP51l0V6MFrEhDJf9nyp7im38Fjy3Ky+sJ+qyeTYmGfqTnq6IJmXr32dcU5LzKYwjNgTSHnn943uK3qR5UCwYA+xIbYX61xQyl81TojeMAQAAA)" data-cap="Wontons — Hand-folded parcels, golden at the pleats, chilli dip on the side."><source type="image/avif" srcset="assets/img/dish-wonton-480.avif 480w, assets/img/dish-wonton-768.avif 768w, assets/img/dish-wonton-1200.avif 1200w, assets/img/dish-wonton-1920.avif 1920w, assets/img/dish-wonton-2400.avif 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-wonton-480.webp 480w, assets/img/dish-wonton-768.webp 768w, assets/img/dish-wonton-1200.webp 1200w, assets/img/dish-wonton-1920.webp 1920w, assets/img/dish-wonton-2400.webp 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-wonton-1200.jpg" srcset="assets/img/dish-wonton-480.jpg 480w, assets/img/dish-wonton-768.jpg 768w, assets/img/dish-wonton-1200.jpg 1200w, assets/img/dish-wonton-1920.jpg 1920w, assets/img/dish-wonton-2400.jpg 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="2400" height="1600" alt="Golden folded wontons in a white Kudos bowl with a small pot of red chilli dip" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Wontons</h3>
+        <div class="dish__tags">
+          <span class="vg vg--q ph" data-ph="VEG?" title="Veg status to confirm"><span class="sr-only">Veg status to be confirmed</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Hand-folded parcels, golden at the pleats, chilli dip on the side.</p>
+    </li>
+    <li class="dish" data-cat="main indian" style="view-transition-name:dish-3">
+      <button class="dish__btn" data-lb="food" aria-label="Sham Savera — open larger photo">
+        <picture class="pic hov" style="--pos:50% 48%;--lqip:url(data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAACwBQCdASoYACUAPu1irE8ppSQiMBVaqTAdiWMAA+T60b5WJfTUqGGMRySjNtld/E9ySbIHD4gA/vLVx+M9Ujj7kaI2Cha70SQZR+5W7uVHcfw3sev3ZbmrGcvqNCaCEBWV7OjO8ZqxvbDn2Lh+SJATQEDIMKPBK3goujMN5Xy1Vqu7dCyfoI4KM3SAQCHTj2iIUSY2Cf4QzX3RlAyyi0V61QJK78Zw08KllfBY2jLU+k0CI01sX6z1f+h2JzKpFV3ZbY/wAAA=)" data-cap="Sham Savera — Spinach koftas with a paneer heart, sunk in silky tomato gravy."><source type="image/avif" srcset="assets/img/dish-sham-savera-480.avif 480w, assets/img/dish-sham-savera-768.avif 768w, assets/img/dish-sham-savera-1200.avif 1200w, assets/img/dish-sham-savera-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-sham-savera-480.webp 480w, assets/img/dish-sham-savera-768.webp 768w, assets/img/dish-sham-savera-1200.webp 1200w, assets/img/dish-sham-savera-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-sham-savera-1200.jpg" srcset="assets/img/dish-sham-savera-480.jpg 480w, assets/img/dish-sham-savera-768.jpg 768w, assets/img/dish-sham-savera-1200.jpg 1200w, assets/img/dish-sham-savera-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2467" alt="Overhead view of Sham Savera: green spinach koftas topped with cream in a tomato gravy" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        <span class="dish__sig-badge">Signature</span>
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Sham Savera</h3>
+        <div class="dish__tags">
+          <span class="vg vg--v" title="Vegetarian"><span class="sr-only">Vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Spinach koftas with a paneer heart, sunk in silky tomato gravy.</p>
+    </li>
+    <li class="dish" data-cat="small indian" style="view-transition-name:dish-4">
+      <button class="dish__btn" data-lb="food" aria-label="Tandoori Chicken — open larger photo">
+        <picture class="pic hov" style="--pos:50% 52%;--lqip:url(data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAAAQBgCdASoYACQAPu1iq08ppSOiMBVaqTAdiWQAwc2M2kMfrq0ris59gr6UfmKRVzFGUnOfdRCq/QAA/uNNGm5xUyvZbAHXG4tRk8d0tt9fcW1e0EIjdzti/40SU/PWusF4hq6aApOtjK0683IOPB2MH4JFbe3toXPuLP2CLGgl4wNxclHe2ug6zElIXQa2zsu4WlskysHaqF5dwR9Ly0bR3SiKK+/6xNb2yEX8jGI3z8X6HL8Q+K79Dp1MRpiXHBM68xFLmG8ODabKMurPlKIjh2Qbv25vNt5i2uWWzpXOcvRcOSFtsOV59AAAAA==)" data-cap="Tandoori Chicken — Charred at the edges, onion rings underneath. Eat it with your hands."><source type="image/avif" srcset="assets/img/dish-tandoori-480.avif 480w, assets/img/dish-tandoori-768.avif 768w, assets/img/dish-tandoori-1200.avif 1200w, assets/img/dish-tandoori-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-tandoori-480.webp 480w, assets/img/dish-tandoori-768.webp 768w, assets/img/dish-tandoori-1200.webp 1200w, assets/img/dish-tandoori-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-tandoori-1200.jpg" srcset="assets/img/dish-tandoori-480.jpg 480w, assets/img/dish-tandoori-768.jpg 768w, assets/img/dish-tandoori-1200.jpg 1200w, assets/img/dish-tandoori-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="A hand lifting a foil-wrapped tandoori chicken leg from a plate of onion rings" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Tandoori Chicken</h3>
+        <div class="dish__tags">
+          <span class="vg vg--n" title="Non-vegetarian"><span class="sr-only">Non-vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Charred at the edges, onion rings underneath. Eat it with your hands.</p>
+    </li>
+    <li class="dish" data-cat="main intl" style="view-transition-name:dish-5">
+      <button class="dish__btn" data-lb="food" aria-label="Pasta Barbesca — open larger photo">
+        <picture class="pic hov" style="--pos:50% 60%;--lqip:url(data:image/webp;base64,UklGRjQBAABXRUJQVlA4ICgBAABwBgCdASoYACQAPu1srlIppaQipWsxMB2JagDDVUwDwgF/jm+4zL70vbbF3zV84uuiujEBAklCjutBgdAA/vM02tsLs0k+VI+F70cUQWrXX3C5euf5wO/e7ncGL1VUQcg/kdUhq3YjL4+P/DhjetMdcfiSfMPUw9hfeABTOVBRu2PUMi+tGR5/jNYqxpjCEWxqh+CdsDtubG19NeV2otpbGqES5pj1lNsl+h7XaIZelg47OB+Sf4591lw6bANcCmoVYiK15BrghgHGhbV//jlXtvyw9VIGoIeWBxNqDl2QbWMDXdxjIwANXowjOCWnRASrOjXKgSrCdbAFd5L00ASE7ZhSX6aWecYSmeUw3WaFK1MF7S25mtZjX7HiEzZddvvB2xJpekYAAA==)" data-cap="Pasta Barbesca — Penne in a punchy tomato sauce, black olives, one basil leaf."><source type="image/avif" srcset="assets/img/dish-pasta-480.avif 480w, assets/img/dish-pasta-768.avif 768w, assets/img/dish-pasta-1200.avif 1200w, assets/img/dish-pasta-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-pasta-480.webp 480w, assets/img/dish-pasta-768.webp 768w, assets/img/dish-pasta-1200.webp 1200w, assets/img/dish-pasta-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-pasta-1200.jpg" srcset="assets/img/dish-pasta-480.jpg 480w, assets/img/dish-pasta-768.jpg 768w, assets/img/dish-pasta-1200.jpg 1200w, assets/img/dish-pasta-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="A forkful of penne lifted from a bowl of Pasta Barbesca with black olives and basil" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Pasta Barbesca</h3>
+        <div class="dish__tags">
+          <span class="vg vg--v" title="Vegetarian"><span class="sr-only">Vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Penne in a punchy tomato sauce, black olives, one basil leaf.</p>
+    </li>
+    <li class="dish" data-cat="small indian" style="view-transition-name:dish-6">
+      <button class="dish__btn" data-lb="food" aria-label="Beetroot Tikki — open larger photo">
+        <picture class="pic hov" style="--pos:50% 62%;--lqip:url(data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAABQBgCdASoYACQAPu1irU8ppSSiMBVaqTAdiWMAx+gIHZgORZfQLes5MYJcF3q4Hi7XOfimIYYlb88KyAD+9onVODKWAh/dyFAOgfBhuv4If+7692+wFouhZ5Izy55rGQMJwC6Wfr2n1eVIyeL5ZgjCq1V2jHPSRkqpa5z+4Gao9uR9ZuySGsTSzyl3jN/9CFEYz3/Epz/ws7hgp2gyIMKeZ4xoZdD2bMRCSAo/aO+IqBp41DzN1JRVnwaLcVNsX9500RLvkwZBeH8jfXFtqB9L5wLftibqdA+pJlZ4BNdzRYTXXoht/6V0awTytgAA)" data-cap="Beetroot Tikki — Deep-red patties, crisp outside, each finished with a dot of green chutney."><source type="image/avif" srcset="assets/img/dish-beetroot-tikki-480.avif 480w, assets/img/dish-beetroot-tikki-768.avif 768w, assets/img/dish-beetroot-tikki-1200.avif 1200w, assets/img/dish-beetroot-tikki-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-beetroot-tikki-480.webp 480w, assets/img/dish-beetroot-tikki-768.webp 768w, assets/img/dish-beetroot-tikki-1200.webp 1200w, assets/img/dish-beetroot-tikki-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-beetroot-tikki-1200.jpg" srcset="assets/img/dish-beetroot-tikki-480.jpg 480w, assets/img/dish-beetroot-tikki-768.jpg 768w, assets/img/dish-beetroot-tikki-1200.jpg 1200w, assets/img/dish-beetroot-tikki-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="Seven round beetroot tikkis, each topped with green chutney, in a white Kudos bowl" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Beetroot Tikki</h3>
+        <div class="dish__tags">
+          <span class="vg vg--v" title="Vegetarian"><span class="sr-only">Vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Deep-red patties, crisp outside, each finished with a dot of green chutney.</p>
+    </li>
+    <li class="dish" data-cat="main intl" style="view-transition-name:dish-7">
+      <button class="dish__btn" data-lb="food" aria-label="Veg Lasagna — open larger photo">
+        <picture class="pic hov" style="--pos:50% 60%;--lqip:url(data:image/webp;base64,UklGRkoBAABXRUJQVlA4ID4BAACQBwCdASoYACQAPu1urlIppiQipWsxMB2JagCw82yW8UDBNGEJJutd8c2ZkTHZ2FSDeIMhBZCWMmKtI2Iy6lPpibggjAAA/vWTqo6bnpKmKxptbyQECMEa3FKbtuLSH3YYFkRH19oTwpVPlcahCXEERCjP/H2OOMaLl3dO81/jHGhoOfUvOZLalW7kxAYhxu6nVuI1OxsBwEgMYci26uHinaWQZuIDH6M1oqzTIPbOhGJoqRDYGfkjWaiBTAeF/1BR/46k51ZBeBDHqrEnnjndCDm2R0odxiBxJRk4QUFXXf+u6y6kbAaFJ5hu+3v3AZCogHrr5/Qf7W2HunxFz4yjI4xFi3if1FonDpAQSUOC2thMArvQ+ogbz4a1Ex+E08IB2HvbsiB3FhoSPqo2nAM1n4g+Q+soT5G0m6Uc4AA=)" data-cap="Veg Lasagna — Layers that stretch when you lift them. Bring patience, or a fork."><source type="image/avif" srcset="assets/img/dish-veg-lasagna-480.avif 480w, assets/img/dish-veg-lasagna-768.avif 768w, assets/img/dish-veg-lasagna-1200.avif 1200w, assets/img/dish-veg-lasagna-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-veg-lasagna-480.webp 480w, assets/img/dish-veg-lasagna-768.webp 768w, assets/img/dish-veg-lasagna-1200.webp 1200w, assets/img/dish-veg-lasagna-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-veg-lasagna-1200.jpg" srcset="assets/img/dish-veg-lasagna-480.jpg 480w, assets/img/dish-veg-lasagna-768.jpg 768w, assets/img/dish-veg-lasagna-1200.jpg 1200w, assets/img/dish-veg-lasagna-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="A slice of vegetable lasagna being lifted from the baking dish, cheese stretching beneath it" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Veg Lasagna</h3>
+        <div class="dish__tags">
+          <span class="vg vg--v" title="Vegetarian"><span class="sr-only">Vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Layers that stretch when you lift them. Bring patience, or a fork.</p>
+    </li>
+    <li class="dish" data-cat="main intl" style="view-transition-name:dish-8">
+      <button class="dish__btn" data-lb="food" aria-label="Mexican Rice — open larger photo">
+        <picture class="pic hov" style="--pos:50% 55%;--lqip:url(data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwAdCs4eBqFdlYglIgbT7QAP7e6R0tAhlu9YPED3R8jKRO8SFtQhnNvu5IEz5hQDabUlgQHRUOky/Ff1Wycay4uyd4PfVOIer1WvNK+5ju+cvDA/Tut1bQ5hQTGMWlLSlRlYlZ9pblgAd87O4smg5Wt59Ul5OyBagx5CGEw98zrH5lk/8EjHcAAAA=)" data-cap="Mexican Rice — Baked under molten cheese, nachos standing guard around the bowl."><source type="image/avif" srcset="assets/img/dish-mexican-rice-480.avif 480w, assets/img/dish-mexican-rice-768.avif 768w, assets/img/dish-mexican-rice-1200.avif 1200w, assets/img/dish-mexican-rice-1920.avif 1920w, assets/img/dish-mexican-rice-2400.avif 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-mexican-rice-480.webp 480w, assets/img/dish-mexican-rice-768.webp 768w, assets/img/dish-mexican-rice-1200.webp 1200w, assets/img/dish-mexican-rice-1920.webp 1920w, assets/img/dish-mexican-rice-2400.webp 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-mexican-rice-1200.jpg" srcset="assets/img/dish-mexican-rice-480.jpg 480w, assets/img/dish-mexican-rice-768.jpg 768w, assets/img/dish-mexican-rice-1200.jpg 1200w, assets/img/dish-mexican-rice-1920.jpg 1920w, assets/img/dish-mexican-rice-2400.jpg 2400w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="2400" height="1600" alt="A bowl of baked Mexican rice under melted cheese, ringed with nacho chips, on a wooden board" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Mexican Rice</h3>
+        <div class="dish__tags">
+          <span class="vg vg--v" title="Vegetarian"><span class="sr-only">Vegetarian</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Baked under molten cheese, nachos standing guard around the bowl.</p>
+    </li>
+    <li class="dish" data-cat="main indian" style="view-transition-name:dish-9">
+      <button class="dish__btn" data-lb="food" aria-label="Fried Egg Curry — open larger photo">
+        <picture class="pic hov" style="--pos:50% 56%;--lqip:url(data:image/webp;base64,UklGRhoBAABXRUJQVlA4IA4BAACQBgCdASoYACQAPu1kqk2ppaQiMBqqqTAdiUAYbjGgTeHhR4db9Qy78Kn8X3t99hNkbKDVNX9P1GrYYlsAAP7axz2l5WD5L6aGsdRsoTxHjMgH56bbK3r8kdXcR3v0SCOjpeEhNZrTietHSWP2rgC8zVo/TUdQv0nt0FeNSpvHAwRVLYcE8WH1WdLFXHz0WyEZ+8f889m/jyYgbFcbWVnpMzoZd61fcvg6bqvGyClN8saXP84wfvmp27LmOvZfELK8zWh1+EVHoeaySnWCC9WA4QgS0BVDNHuGKluDlTTYF9eb3Mt2H6TwvtaXMCXslpUoXfAeAj6OEsfnzOUO2IIGw93IqMayWbT70a0AAAA=)" data-cap="Fried Egg Curry — Two sunny eggs on a spiced tomato gravy. Breakfast, after dark."><source type="image/avif" srcset="assets/img/dish-egg-curry-480.avif 480w, assets/img/dish-egg-curry-768.avif 768w, assets/img/dish-egg-curry-1200.avif 1200w, assets/img/dish-egg-curry-1600.avif 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><source type="image/webp" srcset="assets/img/dish-egg-curry-480.webp 480w, assets/img/dish-egg-curry-768.webp 768w, assets/img/dish-egg-curry-1200.webp 1200w, assets/img/dish-egg-curry-1600.webp 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw"><img src="assets/img/dish-egg-curry-1200.jpg" srcset="assets/img/dish-egg-curry-480.jpg 480w, assets/img/dish-egg-curry-768.jpg 768w, assets/img/dish-egg-curry-1200.jpg 1200w, assets/img/dish-egg-curry-1600.jpg 1600w" sizes="(min-width:1440px) 330px, (min-width:1024px) 24vw, (min-width:768px) 32vw, 48vw" width="1600" height="2400" alt="Two sunny-side-up fried eggs on a spiced red tomato gravy in a white Kudos bowl" loading="lazy" decoding="async"></picture>
+        <span class="dish__zoom" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+        </span>
+        
+      </button>
+      <div class="dish__meta">
+        <h3 class="dish__name">Fried Egg Curry</h3>
+        <div class="dish__tags">
+          <span class="vg vg--e" title="Contains egg"><span class="sr-only">Contains egg</span></span>
+        </div>
+      </div>
+      <p class="dish__desc">Two sunny eggs on a spiced tomato gravy. Breakfast, after dark.</p>
+    </li>
+    <li class="dish dish--menu" data-cat="always" style="view-transition-name:dish-menu">
+      <div class="menutile tile tile--forest">
+        <div class="menutile__badge">Full Culinary Experience</div>
+        <p class="label">Rooftop Dining &amp; Bar</p>
+        <p class="menutile__h">Ten plates photographed. The menu runs longer.</p>
+        <p class="menutile__sub">Handi curries, charcoal tandoor, artisanal pastas, thin-crust pizzas &amp; signature lakeside cocktails.</p>
+        <div class="menutile__actions">
+          <a class="btn btn--clay" data-live="menuLink3" href="#food" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Menu <span class="small">(PDF)</span>
+          </a>
+          <a class="btn btn--line-light" href="#visit">Reserve a table</a>
+        </div>
+        <p class="small menutile__p"><span class="ph" data-ph="PRICE_RANGE">About ₹1,200 for two</span> · Dedicated veg &amp; non-veg preparations</p>
+      </div>
+    </li>
+  </ul>
+  <p class="food__close statement">The food should do the talking.</p>
+</section>
+
+<!-- ───────────────────────── 04 STORY ───────────────────────── -->
+<section id="story" class="sect wrap" aria-labelledby="story-h">
+  <div class="story">
+    <figure class="story__media tile">
+      <picture class="pic hov" style="--pos:50% 62%;--lqip:url(data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQBdgZYA2gPQ9j6f0VYq1KdPCAAD+r0s9DjT0RrbaaAYCED1XiQIjeBTpp6la7eWNXHeITc2pK2ISGucHkCV96qZqjquvlbNB9mpcNc6GNexq2zhn6JCZ8rReuX3CX+uy0wz33tDmwByiwAA=)" ><source type="image/avif" srcset="assets/img/story-480.avif 480w, assets/img/story-768.avif 768w, assets/img/story-1200.avif 1200w, assets/img/story-1920.avif 1920w, assets/img/story-2400.avif 2400w" sizes="(min-width:1024px) 48vw, 100vw"><source type="image/webp" srcset="assets/img/story-480.webp 480w, assets/img/story-768.webp 768w, assets/img/story-1200.webp 1200w, assets/img/story-1920.webp 1920w, assets/img/story-2400.webp 2400w" sizes="(min-width:1024px) 48vw, 100vw"><img src="assets/img/story-1200.jpg" srcset="assets/img/story-480.jpg 480w, assets/img/story-768.jpg 768w, assets/img/story-1200.jpg 1200w, assets/img/story-1920.jpg 1920w, assets/img/story-2400.jpg 2400w" sizes="(min-width:1024px) 48vw, 100vw" width="2400" height="1601" alt="The Kudos rooftop dining room at dusk, a red table lamp in the foreground and the amber-lit bar at the back" loading="lazy" decoding="async"></picture>
+      <div class="story__badge">Since Udaipur Days</div>
+    </figure>
+    <div class="story__copy">
+      <div class="story__header">
+        <p class="label">04 — The story &amp; heritage</p>
+        <h2 id="story-h" class="h2">We decided to rebuild while keeping the doors open.</h2>
+      </div>
+      <div class="body body--story">
+        <p>A few years in, Kudos was struggling. The easy move was obvious: pull the shutters down, repaint, relaunch under a new name and hope nobody remembered.</p>
+        <p>We didn't. We rebuilt in place, slowly, one service at a time, with guests still walking in every evening. New plates went out next to old ones. Some nights you could see the seams.</p>
+        <p><strong>We chose evolution over disruption</strong>, because the people who stayed with us through the awkward months deserved to see where it went. It still isn't finished. Something on the roof, the menu or the playlist keeps getting a little better, and the regulars usually notice first.</p>
+      </div>
+    </div>
+    <div class="story__evolve tile tile--sand statement rv">
+      <div class="evolve__glyph" aria-hidden="true">“</div>
+      <p>Kudos is not just a restaurant that changed. It is a restaurant that continues to evolve.</p>
+    </div>
+    <blockquote class="story__note tile tile--stone rv">
+      <div class="quote__icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+      </div>
+      <p>The best compliment a restaurant can receive is not just a good review. It is seeing the same guests walk through its doors again.</p>
+      <footer><span class="sig-line" aria-hidden="true"></span>— Vathsaal Jogani, Founder &amp; Host</footer>
+    </blockquote>
+
+    <div class="story__pillars rv">
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3 class="pillar__h">The Panoramic Vista</h3>
+        <p class="pillar__p">Front-row view over Lake Pichola to the City Palace and Jag Mandir, bathed in Rajasthan's legendary evening light.</p>
+      </div>
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        </div>
+        <h3 class="pillar__h">The Kitchen Discipline</h3>
+        <p class="pillar__p">Rajasthani slow-cooked handis, coal-fired tandoor, artisanal Italian pastas, and fresh local ingredients every single morning.</p>
+      </div>
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <h3 class="pillar__h">The Evolving Soundtrack</h3>
+        <p class="pillar__p">A curated progression from chill midday grooves to golden hour downtempo, Saturday DJ socials, and nostalgic vinyl nights.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 05 HOURS ───────────────────────── -->
+<section id="hours" class="sect wrap" aria-labelledby="hours-h" data-mood="golden">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">05 — The hours</p>
+      <h2 id="hours-h" class="h2">Different moods. One destination.</h2>
+    </div>
+    <p class="body hours__hint">Drag through an evening on the roof, 5 PM to 1 AM. The marker shows where Udaipur is right now.</p>
+  </header>
+
+  <div class="hours">
+    <div class="hours__stage">
+      <article class="hcard" data-mood="golden" id="hc-golden">
+        <figure class="hcard__media">
+          <picture class="pic " style="--pos:35% 60%;--lqip:url(data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwDCgYx27SKbVKiZQCLH9RvSIgAA99MdR3IMyPRnerWjBvr14N5NPv/tmWouuuZ5FsYJmGLJ/Q3emnxFKbrlUNoLYNauIrhAks/kZbDmPAuZf+E6y8+R36tr2vxQP33JVChW90+jAmyQngCJRLGMq4XhFT6cgAA=)" ><source type="image/avif" srcset="assets/img/hours-golden-480.avif 480w, assets/img/hours-golden-768.avif 768w, assets/img/hours-golden-1200.avif 1200w, assets/img/hours-golden-1920.avif 1920w, assets/img/hours-golden-2400.avif 2400w" sizes="(min-width:1024px) 60vw, 88vw"><source type="image/webp" srcset="assets/img/hours-golden-480.webp 480w, assets/img/hours-golden-768.webp 768w, assets/img/hours-golden-1200.webp 1200w, assets/img/hours-golden-1920.webp 1920w, assets/img/hours-golden-2400.webp 2400w" sizes="(min-width:1024px) 60vw, 88vw"><img src="assets/img/hours-golden-1200.jpg" srcset="assets/img/hours-golden-480.jpg 480w, assets/img/hours-golden-768.jpg 768w, assets/img/hours-golden-1200.jpg 1200w, assets/img/hours-golden-1920.jpg 1920w, assets/img/hours-golden-2400.jpg 2400w" sizes="(min-width:1024px) 60vw, 88vw" width="2400" height="1620" alt="The open rooftop terrace in the late afternoon, tables set along the railing above Lake Pichola" loading="lazy" decoding="async"></picture>
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">5 PM – 7 PM</p>
+          <h3 class="h3">Golden hour</h3>
+          <p class="hcard__lead">The sun begins to settle over Udaipur. The city changes colour. Lake Pichola reflects the evening sky.</p>
+          <p class="body">Ask for <span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">a railing table</span> when you book. Get here half an hour before sunset and order the first round while the palace still holds the light.</p>
+        </div>
+      </article>
+      <article class="hcard" data-mood="evening" id="hc-evening">
+        <figure class="hcard__media">
+          <picture class="pic " style="--pos:50% 62%;--lqip:url(data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdAdwA+ZkIe2dH3NRUoKAA/j5Ry06Rcg0bP9pWt+mWjCSBytr57JH07MKz5FKyF+dQoEhcJyTrDDWBQUhchOw4fqhc8VfDGPEtXLrtzHGiEuiTHxZ3mleex9XWWz5R9bZ7RlqgTRlxNqInAE71M0fOuy5QgwvZw+NLzsrDr3Xe8/MAAA==)" ><source type="image/avif" srcset="assets/img/hours-evening-480.avif 480w, assets/img/hours-evening-768.avif 768w, assets/img/hours-evening-1200.avif 1200w, assets/img/hours-evening-1920.avif 1920w, assets/img/hours-evening-2400.avif 2400w" sizes="(min-width:1024px) 60vw, 88vw"><source type="image/webp" srcset="assets/img/hours-evening-480.webp 480w, assets/img/hours-evening-768.webp 768w, assets/img/hours-evening-1200.webp 1200w, assets/img/hours-evening-1920.webp 1920w, assets/img/hours-evening-2400.webp 2400w" sizes="(min-width:1024px) 60vw, 88vw"><img src="assets/img/hours-evening-1200.jpg" srcset="assets/img/hours-evening-480.jpg 480w, assets/img/hours-evening-768.jpg 768w, assets/img/hours-evening-1200.jpg 1200w, assets/img/hours-evening-1920.jpg 1920w, assets/img/hours-evening-2400.jpg 2400w" sizes="(min-width:1024px) 60vw, 88vw" width="2400" height="1620" alt="The Kudos bar lit in amber under its glass racks, the stage and dining tables beside it" loading="lazy" decoding="async"></picture>
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">7 PM – 10 PM</p>
+          <h3 class="h3">Evening</h3>
+          <p class="hcard__lead">The music finds its rhythm. The bar becomes more active. Friends gather, couples settle in, conversations grow louder and the energy begins to build.</p>
+          <p class="body">Around eight the bar hits its stride. Come as a group, order to share, and let somebody else choose the next song.</p>
+        </div>
+      </article>
+      <article class="hcard" data-mood="night" id="hc-night">
+        <figure class="hcard__media">
+          <picture class="pic " style="--pos:55% 58%;--lqip:url(data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBD4PhwezICDwqEuAAP6bfvIHdy69ZMpPtkSSEABO7pcj69QyQIAfCf93zq1A/DKCbUVer/hZdDSfebSH1p7nKimVEwiLPqjOtD4EGeiGYWMrWzsBI35o16Go/3w/AmThHTy1zjGmw51G4NiH0zPh69b3Kuo1y6uOZyL6uASKQziQAA==)" ><source type="image/avif" srcset="assets/img/hours-night-480.avif 480w, assets/img/hours-night-768.avif 768w, assets/img/hours-night-1200.avif 1200w, assets/img/hours-night-1920.avif 1920w, assets/img/hours-night-2400.avif 2400w" sizes="(min-width:1024px) 60vw, 88vw"><source type="image/webp" srcset="assets/img/hours-night-480.webp 480w, assets/img/hours-night-768.webp 768w, assets/img/hours-night-1200.webp 1200w, assets/img/hours-night-1920.webp 1920w, assets/img/hours-night-2400.webp 2400w" sizes="(min-width:1024px) 60vw, 88vw"><img src="assets/img/hours-night-1200.jpg" srcset="assets/img/hours-night-480.jpg 480w, assets/img/hours-night-768.jpg 768w, assets/img/hours-night-1200.jpg 1200w, assets/img/hours-night-1920.jpg 1920w, assets/img/hours-night-2400.jpg 2400w" sizes="(min-width:1024px) 60vw, 88vw" width="2400" height="1601" alt="The glass-walled dining room at night, warm table lamps inside and the lit old city beyond the windows" loading="lazy" decoding="async"></picture>
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">10 PM – 1 AM</p>
+          <h3 class="h3">Late night</h3>
+          <p class="hcard__lead">The night belongs to the people.</p>
+          <p class="body">After ten the city lights do the decorating. The late crowd is locals, birthdays and people who said "one more" an hour ago. Kitchen's last orders <span class="ph" data-ph="LAST_ORDERS">12:30 AM</span>.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="scrub" aria-hidden="false">
+      <div class="scrub__meta">
+        <p class="scrub__clock tnum" data-live="scrubTime">5:00 PM</p>
+        <div class="energy" aria-label="Energy level"><span class="label">Energy</span><span class="energy__bars" data-live="energy" data-level="2"><i></i><i></i><i></i><i></i><i></i></span></div>
+      </div>
+      <div class="scrub__track" data-scrub>
+        <div class="scrub__zones" aria-hidden="true"><span>Golden hour</span><span>Evening</span><span>Late night</span></div>
+        <div class="scrub__fill" aria-hidden="true"></div>
+        <div class="scrub__now" aria-hidden="true" data-live="scrubNow"><span>Now</span></div>
+        <div class="scrub__handle" role="slider" tabindex="0" aria-label="Time of evening" aria-valuemin="0" aria-valuemax="480" aria-valuenow="0" aria-valuetext="5:00 PM, golden hour"></div>
+      </div>
+      <div class="scrub__ticks tnum" aria-hidden="true"><span>5 PM</span><span>7</span><span>9</span><span>11</span><span>1 AM</span></div>
+    </div>
+  </div>
+  <p class="hours__close statement">One destination. Multiple experiences.</p>
+</section>
+
+<!-- ───────────────────────── 06 EVENTS + GALLERY ───────────────────────── -->
+<section id="events" class="sect wrap" aria-labelledby="events-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">06 — Music &amp; nights</p>
+      <h2 id="events-h" class="h2">Two nights worth planning around.</h2>
+    </div>
+    <p class="body">The roof has a stage and a DJ booth, and two regular nights that fill it. Everything else is a good evening that happens without a poster.</p>
+  </header>
+
+  <div class="events">
+    <article class="ev tile tile--forest rv">
+      <p class="label">Saturdays</p>
+      <h3 class="ev__name">Saturday Socials</h3>
+      <p class="body">The week's fullest night on the roof. Friends arrive in groups, tables get pushed together, and the bar stops being a corner and becomes the centre of the room. Book ahead; Saturday walk-ins after nine are a gamble.</p>
+      <p class="small"><span class="ph" data-ph="EVENT_SCHEDULE">From 8 PM · line-up posted on Instagram</span></p>
+    </article>
+    <article class="ev tile tile--forest rv">
+      <p class="label" data-live="puraniDay"><span class="ph" data-ph="EVENT_SCHEDULE">Weekly</span></p>
+      <h3 class="ev__name">Purani Playlist</h3>
+      <p class="body">Old songs, the ones somebody's parents sang along to in the car. By the second verse the whole roof knows the chorus, including the people who swore they didn't.</p>
+      <p class="small"><span class="ph" data-ph="EVENT_SCHEDULE">Night and start time to confirm</span></p>
+    </article>
+    <figure class="ev ev--photo tile rv">
+      <picture class="pic hov" style="--pos:48% 58%;--lqip:url(data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7ACBu0aO9EdjO62XnAAD+WW/AlaSsannkxKit6yucU/YyG3yIEB4rq1I6LVEd3eh636q3Dy4BZ0lXoz85Dvjc0cKVhgHZjhhj3SCW7FTI30BvW+s0DNQJspuXET1DOWZo90TzQ5VJUAA=)" data-lb="gallery" data-cap="The stage and DJ booth"><source type="image/avif" srcset="assets/img/events-stage-480.avif 480w, assets/img/events-stage-768.avif 768w, assets/img/events-stage-1200.avif 1200w, assets/img/events-stage-1920.avif 1920w, assets/img/events-stage-2400.avif 2400w" sizes="(min-width:1024px) 33vw, 100vw"><source type="image/webp" srcset="assets/img/events-stage-480.webp 480w, assets/img/events-stage-768.webp 768w, assets/img/events-stage-1200.webp 1200w, assets/img/events-stage-1920.webp 1920w, assets/img/events-stage-2400.webp 2400w" sizes="(min-width:1024px) 33vw, 100vw"><img src="assets/img/events-stage-1200.jpg" srcset="assets/img/events-stage-480.jpg 480w, assets/img/events-stage-768.jpg 768w, assets/img/events-stage-1200.jpg 1200w, assets/img/events-stage-1920.jpg 1920w, assets/img/events-stage-2400.jpg 2400w" sizes="(min-width:1024px) 33vw, 100vw" width="2400" height="1600" alt="The Kudos stage and DJ booth: a raised round platform under a black canopy, framed by speakers" loading="lazy" decoding="async"></picture>
+      <figcaption class="chip chip--float">The stage &amp; DJ booth</figcaption>
+    </figure>
+  </div>
+
+  <div class="sched">
+    <div class="sched__head">
+      <h3 class="h3">Coming up</h3>
+      <a class="link" href="#visit" data-live="waPrivate">Private bookings &amp; celebrations → WhatsApp</a>
+    </div>
+    <ol class="sched__list" data-live="schedule" role="list">
+      <li class="sched__empty">Nothing on the calendar yet. Saturdays are always Socials; follow <span class="ph" data-ph="INSTAGRAM">@kudos.udaipur</span> for line-ups.</li>
+    </ol>
+  </div>
+
+  <div class="gallery" id="gallery" aria-labelledby="gallery-h">
+    <div class="gallery__head">
+      <div>
+        <h3 id="gallery-h" class="h3">The roof, the room, the plates</h3>
+        <p class="small gallery__hint">Lakeside terrace, ambient lighting &amp; dining spaces</p>
+      </div>
+      <div class="gallery__nav-btns">
+        <button class="rail__btn-nav" data-rail-prev aria-label="Scroll left">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="rail__btn-nav" data-rail-next aria-label="Scroll right">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="rail" tabindex="0" role="region" aria-label="Photo gallery — scrolls sideways">
+      <ul class="rail__track" role="list">
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: the full rooftop dining floor"><picture class="pic " style="--pos:50% 60%;--lqip:url(data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYABAAPu1kqU2ppaOiMAgBMB2JZwAASpatombBOz7PUWB0OYAA/ow7j46v9cGAyZnNdXPXxsqbfb1EgIM64JO5arDNVHkEXv43ff0N8Bq/IkQrunHd7XDB5tS00paFn+Z4YRl6qMPbzF6v7hbYsvWLLgAAAA==)" data-cap="The rooftop floor, mid-afternoon"><source type="image/avif" srcset="assets/img/gal-terrace-wide-480.avif 480w, assets/img/gal-terrace-wide-768.avif 768w, assets/img/gal-terrace-wide-1200.avif 1200w, assets/img/gal-terrace-wide-1920.avif 1920w, assets/img/gal-terrace-wide-2400.avif 2400w" sizes="(min-width:1024px) 44vw, 80vw"><source type="image/webp" srcset="assets/img/gal-terrace-wide-480.webp 480w, assets/img/gal-terrace-wide-768.webp 768w, assets/img/gal-terrace-wide-1200.webp 1200w, assets/img/gal-terrace-wide-1920.webp 1920w, assets/img/gal-terrace-wide-2400.webp 2400w" sizes="(min-width:1024px) 44vw, 80vw"><img src="assets/img/gal-terrace-wide-1200.jpg" srcset="assets/img/gal-terrace-wide-480.jpg 480w, assets/img/gal-terrace-wide-768.jpg 768w, assets/img/gal-terrace-wide-1200.jpg 1200w, assets/img/gal-terrace-wide-1920.jpg 1920w, assets/img/gal-terrace-wide-2400.jpg 2400w" sizes="(min-width:1024px) 44vw, 80vw" width="2400" height="1612" alt="The full rooftop dining floor under its canopy, hills and the city on three sides" loading="lazy" decoding="async"></picture></button></li>
+        <li class="rail__item rail__item--tall"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: Pasta Barbesca with garlic bread"><picture class="pic " style="--pos:50% 62%;--lqip:url(data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAAAQBgCdASoYACQAPu1oq1AppaOjKrgMATAdiUAAfMxA1+F4PVL7jcEj9bUfFArTA9hCV3bFvxhLSAAA/u6ppfK8P+6nRdM5eirS+XkCkYTDtgwopBBE+4EqgTrp6DGz+q+SVXF71gXUOesX1DSDFZfIO0DS6Mx44z9+j1C4+zlmwlqrFV3idOnEXGYERWV89Yi3RRkmatofoI5mVoVox9P2FLauEv5MLlEkGURso4jIsvizj99Ck3QtfsYcn6iF+h/LtVD2stuOlSLfO2rHXeaAiMlovwAA)" data-cap="Pasta Barbesca, with garlic bread"><source type="image/avif" srcset="assets/img/gal-pasta-alt-480.avif 480w, assets/img/gal-pasta-alt-768.avif 768w, assets/img/gal-pasta-alt-1200.avif 1200w, assets/img/gal-pasta-alt-1600.avif 1600w" sizes="(min-width:1024px) 22vw, 56vw"><source type="image/webp" srcset="assets/img/gal-pasta-alt-480.webp 480w, assets/img/gal-pasta-alt-768.webp 768w, assets/img/gal-pasta-alt-1200.webp 1200w, assets/img/gal-pasta-alt-1600.webp 1600w" sizes="(min-width:1024px) 22vw, 56vw"><img src="assets/img/gal-pasta-alt-1200.jpg" srcset="assets/img/gal-pasta-alt-480.jpg 480w, assets/img/gal-pasta-alt-768.jpg 768w, assets/img/gal-pasta-alt-1200.jpg 1200w, assets/img/gal-pasta-alt-1600.jpg 1600w" sizes="(min-width:1024px) 22vw, 56vw" width="1600" height="2400" alt="Pasta Barbesca with black olives and two slices of garlic bread on a Kudos plate" loading="lazy" decoding="async"></picture></button></li>
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: terrace tables with lamps lit"><picture class="pic " style="--pos:45% 62%;--lqip:url(data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZQAD5gFSX6nV7iiECAD+iPQ2JAToWW9KbWUrJAI9fpNTDlsWEIJyqFt4X3HIWUfJe2U0e/1FbZaEhLdS3mjX4ROAHil1N6Rclpl+6cMa+jeLOqfEAwW/GPtZr2brnK9uW6Hk0cbp3ikcHBgPy4VgAAA=)" data-cap="Lamps on, early evening"><source type="image/avif" srcset="assets/img/gal-terrace-lamps-480.avif 480w, assets/img/gal-terrace-lamps-768.avif 768w, assets/img/gal-terrace-lamps-1200.avif 1200w, assets/img/gal-terrace-lamps-1920.avif 1920w, assets/img/gal-terrace-lamps-2400.avif 2400w" sizes="(min-width:1024px) 44vw, 80vw"><source type="image/webp" srcset="assets/img/gal-terrace-lamps-480.webp 480w, assets/img/gal-terrace-lamps-768.webp 768w, assets/img/gal-terrace-lamps-1200.webp 1200w, assets/img/gal-terrace-lamps-1920.webp 1920w, assets/img/gal-terrace-lamps-2400.webp 2400w" sizes="(min-width:1024px) 44vw, 80vw"><img src="assets/img/gal-terrace-lamps-1200.jpg" srcset="assets/img/gal-terrace-lamps-480.jpg 480w, assets/img/gal-terrace-lamps-768.jpg 768w, assets/img/gal-terrace-lamps-1200.jpg 1200w, assets/img/gal-terrace-lamps-1920.jpg 1920w, assets/img/gal-terrace-lamps-2400.jpg 2400w" sizes="(min-width:1024px) 44vw, 80vw" width="2400" height="1628" alt="Rooftop tables with yellow lamps lit and the Udaipur skyline beyond the railing" loading="lazy" decoding="async"></picture></button></li>
+        <li class="rail__item rail__item--tall"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: Laal Maas, full plate"><picture class="pic " style="--pos:50% 55%;--lqip:url(data:image/webp;base64,UklGRiABAABXRUJQVlA4IBQBAAAQBgCdASoYACQAPu1srE8ppqQiKrgMATAdiUAYm4ECP2t7AaqLs2glllLb7Fsf8TxKTyoo93webgAA/VNwJaQiyEts3qiKnhUtEEPtS3tt6nhFeWJDMzXhfdy7C82KZ04WG1fAJQgIcuISQeVZjXXEWATotK/qqmqQNyL8A9Sp+KJedYm21E0OLHV/xmUaOidgim1AcwPQIaFdI8Rib8PziBgLqosyySEysR8Dtv1c465gJuu8JxDQ+lN8mJq6FV9psIG0y8X2H+AlrbZr0etcl3wd50SMXr4JivG72pXaEDgLccwlfey1dJQA+MHQIYamgnD8Th0rQiXitBCkKk+60NeFWReBs8CUmm271EFyTaAAAAA=)" data-cap="Laal Maas, the whole plate"><source type="image/avif" srcset="assets/img/gal-laal-alt-480.avif 480w, assets/img/gal-laal-alt-768.avif 768w, assets/img/gal-laal-alt-1200.avif 1200w, assets/img/gal-laal-alt-1600.avif 1600w" sizes="(min-width:1024px) 22vw, 56vw"><source type="image/webp" srcset="assets/img/gal-laal-alt-480.webp 480w, assets/img/gal-laal-alt-768.webp 768w, assets/img/gal-laal-alt-1200.webp 1200w, assets/img/gal-laal-alt-1600.webp 1600w" sizes="(min-width:1024px) 22vw, 56vw"><img src="assets/img/gal-laal-alt-1200.jpg" srcset="assets/img/gal-laal-alt-480.jpg 480w, assets/img/gal-laal-alt-768.jpg 768w, assets/img/gal-laal-alt-1200.jpg 1200w, assets/img/gal-laal-alt-1600.jpg 1600w" sizes="(min-width:1024px) 22vw, 56vw" width="1600" height="2400" alt="A full plate of Laal Maas, mutton in deep red gravy with fresh coriander" loading="lazy" decoding="async"></picture></button></li>
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: the glass room at night"><picture class="pic " style="--pos:50% 60%;--lqip:url(data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgMZAY1/u5R7dfZ5wn3l2VgADONn0cyqiKv2kVk1d97c+4CL24tdlStKnb59a/WTeIh9Z2j7jl895hvFZ5CVWY7UmmSDmW/scSXRHg7WF72HMf5uTeqvJXq4IW/CNTGVKZd2qxAoW4kCXemq0d850tVXQbz+g3T+zoVKBnL+tksqugAA==)" data-cap="The glass room, after dark"><source type="image/avif" srcset="assets/img/gal-glass-room-480.avif 480w, assets/img/gal-glass-room-768.avif 768w, assets/img/gal-glass-room-1200.avif 1200w, assets/img/gal-glass-room-1920.avif 1920w, assets/img/gal-glass-room-2400.avif 2400w" sizes="(min-width:1024px) 44vw, 80vw"><source type="image/webp" srcset="assets/img/gal-glass-room-480.webp 480w, assets/img/gal-glass-room-768.webp 768w, assets/img/gal-glass-room-1200.webp 1200w, assets/img/gal-glass-room-1920.webp 1920w, assets/img/gal-glass-room-2400.webp 2400w" sizes="(min-width:1024px) 44vw, 80vw"><img src="assets/img/gal-glass-room-1200.jpg" srcset="assets/img/gal-glass-room-480.jpg 480w, assets/img/gal-glass-room-768.jpg 768w, assets/img/gal-glass-room-1200.jpg 1200w, assets/img/gal-glass-room-1920.jpg 1920w, assets/img/gal-glass-room-2400.jpg 2400w" sizes="(min-width:1024px) 44vw, 80vw" width="2400" height="1604" alt="The glass-walled dining room at night with the Kudos neon sign on the wall" loading="lazy" decoding="async"></picture></button></li>
+        <li class="rail__item rail__item--note">
+          <div class="exp-card tile tile--forest">
+            <div class="exp-card__tag">Rooftop Experience</div>
+            <p class="exp-card__h">Every table has a view.</p>
+            <p class="small exp-card__p">Lake Pichola breeze by day, glowing City Palace lights by night. Reserve your preferred corner.</p>
+            <a class="btn btn--clay btn--sm" href="#visit">Reserve on WhatsApp</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="rail__progress" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 07 VISIT ───────────────────────── -->
+<section id="visit" class="sect wrap" aria-labelledby="visit-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">07 — Visit &amp; reserve</p>
+      <h2 id="visit-h" class="h2">A guest should never feel like a transaction.</h2>
+    </div>
+    <div class="visit__intro">
+      <p class="lede">Simple reservations with personal confirmation.</p>
+      <p class="body">Pick your preferred slot below and reserve directly on WhatsApp. Need special rooftop arrangements or large family seating? Message or call our host.</p>
+    </div>
+  </header>
+
+  <div class="visit">
+    <!-- Map -->
+    <div class="map tile">
+      <div class="map__frame" data-map>
+        <noscript><p class="small" style="padding:24px">Map loads with JavaScript. <span class="ph" data-ph="ADDRESS">Address</span></p></noscript>
+      </div>
+      <div class="map__pin" aria-hidden="true"><span></span></div>
+      <div class="map__card">
+        <div class="map__badge">Rooftop Location</div>
+        <p class="label">Find us in Udaipur</p>
+        <p class="map__addr"><span class="ph" data-ph="ADDRESS">Top Floor, 57 Ambavgarh, near Lake Pichola, Udaipur 313001</span></p>
+        <div class="map__highlights">
+          <span class="m-pill">Facing City Palace</span>
+          <span class="m-pill">Direct Lake Pichola View</span>
+          <span class="m-pill">Covered Rooftop Lounge</span>
+        </div>
+        <a class="btn btn--green btn--sm" data-live="mapsLink" href="#visit" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- Booking composer -->
+    <form class="book tile tile--stone" data-book novalidate aria-labelledby="book-h">
+      <div class="book__header">
+        <div>
+          <h3 id="book-h" class="h3">Reserve Your Table</h3>
+          <p class="small muted">Direct confirmation on WhatsApp with the host</p>
+        </div>
+        <span class="book__tag">Fast Response</span>
+      </div>
+
+      <fieldset class="book__row">
+        <legend class="label">1. Choose Date</legend>
+        <div class="chips" data-dates>
+          <button type="button" class="chip-btn" data-date="0" aria-pressed="true">Today</button>
+          <button type="button" class="chip-btn" data-date="1" aria-pressed="false">Tomorrow</button>
+          <label class="chip-btn chip-btn--pick">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span data-live="pickLabel">Pick a date</span>
+            <input type="date" data-date-pick aria-label="Pick a date">
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="book__row">
+        <legend class="label">2. Preferred Time <span class="small muted" data-live="timeNote"></span></legend>
+        <div class="chips chips--time" data-times></div>
+      </fieldset>
+
+      <div class="book__grid">
+        <fieldset class="book__row">
+          <legend class="label">3. Guests</legend>
+          <div class="stepper">
+            <button type="button" class="stepper__b" data-step="-1" aria-label="One fewer guest">−</button>
+            <output class="stepper__v tnum" data-guests aria-live="polite">2</output>
+            <button type="button" class="stepper__b" data-step="1" aria-label="One more guest">+</button>
+          </div>
+        </fieldset>
+        <div class="book__row">
+          <label class="label" for="occ">Occasion</label>
+          <select id="occ" class="select" data-occasion>
+            <option value="">Just dinner / drinks</option>
+            <option value="sunset">Sunset table (Railing vista)</option>
+            <option value="a date night">Date night / Romantic</option>
+            <option value="a birthday">Birthday celebration</option>
+            <option value="an anniversary">Anniversary celebration</option>
+            <option value="a work dinner">Family or work gathering</option>
+          </select>
+        </div>
+        <div class="book__row book__row--full">
+          <label class="label" for="bname">Guest Name (Optional)</label>
+          <input id="bname" class="input" data-name autocomplete="name" placeholder="Your name for the reservation">
+        </div>
+      </div>
+
+      <div class="book__preview">
+        <div class="preview__header">
+          <span class="label">WhatsApp Message Preview</span>
+          <span class="preview__badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Ready to send</span>
+        </div>
+        <p class="book__msg" data-live="bookMsg" aria-live="polite"></p>
+      </div>
+      <p class="small book__group" data-live="groupNote" hidden>Planning for more than 12 guests? Group packages &amp; private terrace sections available on WhatsApp.</p>
+      <div class="book__actions">
+        <a class="btn btn--clay btn--lg book__wa-btn" data-live="bookWa" href="#" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Book on WhatsApp
+        </a>
+        <a class="btn btn--line" data-live="tel" href="#visit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call <span class="ph" data-ph="PHONE">+91 98290 12345</span>
+        </a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Know before you go → also FAQPage JSON-LD (generated at build from data-q) -->
+  <div class="kbg">
+    <div class="kbg__header">
+      <p class="label">Guest Information</p>
+      <h3 class="h3 kbg__h">Know Before You Go</h3>
+    </div>
+    <div class="kbg__grid">
+      <article class="kb rv" data-q="Where is Kudos Restro Lounge in Udaipur?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <p class="label">Location &amp; Address</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="ADDRESS">Top floor, 57 Ambavgarh, Udaipur</span></p>
+        <p class="kb__a">We're on the roof, so look up, not around. Tell the auto driver Ambavgarh, near Lake Pichola and you'll land at the door. The view across Lake Pichola to the City Palace starts the moment you reach the top.</p>
+      </article>
+      <article class="kb rv" data-q="Is there parking near Kudos, and how do I get there?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="7" cy="15" r="2"/><circle cx="17" cy="15" r="2"/></svg></span>
+          <p class="label">Getting here &amp; parking</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="PARKING">Street parking nearby; designated lots available</span></p>
+        <p class="kb__a">Old-city lanes are narrow and get narrower after dark. An auto or cab to the door is the stress-free option. If you're driving, park first and walk the last few minutes.</p>
+      </article>
+      <article class="kb kb--hours rv" data-q="What are the opening hours of Kudos Restro Lounge?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+          <p class="label">Hours &amp; Kitchen Last Orders</p>
+        </div>
+        <table class="kb__hours tnum" data-live="hoursTable"><tbody><tr><th>Every day</th><td><span class="ph" data-ph="HOURS">12:00 PM – 1:00 AM</span></td></tr></tbody></table>
+        <p class="kb__a">Lunch from noon, golden hour around sunset, and the roof stays open until late. Kitchen last orders 12:30 AM.</p>
+      </article>
+      <article class="kb rv" data-q="Which is the best table for sunset at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+          <p class="label">Best table for sunset</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">The railing tables facing the lake</span></p>
+        <p class="kb__a">Ask for it by name when you book; it goes first. Sunset today is at <strong class="tnum" data-live="sunsetShort3">—</strong>, so aim to be seated thirty minutes before.</p>
+      </article>
+      <article class="kb rv" data-q="What happens at the rooftop if it rains?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"/><line x1="8" y1="19" x2="8" y2="21"/><line x1="12" y1="17" x2="12" y2="23"/><line x1="16" y1="19" x2="16" y2="21"/></svg></span>
+          <p class="label">Rain &amp; monsoon weather</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="WEATHER_POLICY">Covered roof and an enclosed glass room</span></p>
+        <p class="kb__a">The terrace sits under a canopy and the glass room is fully enclosed, so rain changes the view, not the plan. On properly stormy nights we'll move you inside before you have to ask.</p>
+      </article>
+      <article class="kb rv" data-q="Can Kudos host large groups and private celebrations?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <p class="label">Groups &amp; Celebrations</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="LARGE_GROUPS">Up to 40 seated; larger by arrangement</span></p>
+        <p class="kb__a">Birthdays, anniversaries, the office dinner nobody wanted to organise. Message us the date and the headcount and we'll come back with a layout and a menu.</p>
+      </article>
+      <article class="kb rv" data-q="Is there a dress code at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg></span>
+          <p class="label">Dress code</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="DRESS_CODE">Smart casual</span></p>
+        <p class="kb__a">Nobody's checking collars. It's a nice room with a nice view; most people dress for it, especially on Saturdays.</p>
+      </article>
+      <article class="kb rv" data-q="Is Kudos family friendly? Are children allowed?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+          <p class="label">Family &amp; Children</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="CHILDREN">Welcome for lunch and early dinner</span></p>
+        <p class="kb__a">Families do well at lunch and through golden hour. After ten the music is louder and the roof leans grown-up, so plan the early slot if you're bringing little ones.</p>
+      </article>
+      <article class="kb rv" data-q="Does Kudos serve vegetarian food?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+          <p class="label">Vegetarian &amp; Jain Friendly</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="VEG_POLICY">Separate veg preparation; Jain on request</span></p>
+        <p class="kb__a">Vegetarian isn't an afterthought here: half the dishes on this page are veg, the Sham Savera and the lasagna included.</p>
+      </article>
+      <article class="kb rv" data-q="How far in advance should I book a table at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <p class="label">Reservation Lead Time</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="RESERVATION_LEAD_TIME">Same day on weeknights; 1–2 days for Saturdays</span></p>
+        <p class="kb__a">Weeknights, a few hours ahead usually works. Saturdays, sunset tables and groups go first, so book those a day or two out.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ───────────────────────── FOOTER ───────────────────────── -->
+<footer class="foot wrap">
+  <div class="panel panel--forest foot__panel">
+    <p class="foot__word" aria-hidden="true">KUDOS</p>
+    <p class="foot__lockup">Simple Food. Good Food. Great Evenings.</p>
+    <div class="foot__grid">
+      <div>
+        <p class="label">Kudos Restro Lounge</p>
+        <p>A rooftop destination in Udaipur.<br>Founded by Vathsaal Jogani.</p>
+      </div>
+      <div>
+        <p class="label">Find us</p>
+        <p><span class="ph" data-ph="ADDRESS">Top floor, {{street}}, Udaipur 313001</span></p>
+        <p><span class="ph" data-ph="HOURS">Open daily, 12 PM – 1 AM</span></p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="label">On this page</p>
+        <ul role="list"><li><a href="#tonight">Tonight</a></li><li><a href="#food">Food</a></li><li><a href="#story">Story</a></li><li><a href="#hours">Hours</a></li><li><a href="#events">Events</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#visit">Visit</a></li></ul>
+      </nav>
+      <div>
+        <p class="label">Say hello</p>
+        <ul role="list">
+          <li><a data-live="igLink" href="#"><span class="ph" data-ph="INSTAGRAM">Instagram</span></a></li>
+          <li><a data-live="waLink" href="#visit"><span class="ph" data-ph="WHATSAPP">WhatsApp</span></a></li>
+          <li><a data-live="tel2" href="#visit"><span class="ph" data-ph="PHONE">Call</span></a></li>
+          <li><a data-live="menuLink" href="#food"><span class="ph" data-ph="MENU_PDF_URL">Full menu (PDF)</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot__base small"><span><strong>KUDOS RESTRO LOUNGE</strong> — Simple Food. Good Food. Great Evenings.</span> <span class="foot__copy">© <span data-live="year">2026</span></span></p>
+  </div>
+</footer>
+
+<!-- Mobile action bar (appears after 30% scroll) -->
+<nav class="mbar" aria-label="Quick actions">
+  <a data-live="menuLink2" href="#food">Menu</a>
+  <a data-live="waLink2" href="#visit">WhatsApp</a>
+  <a data-live="tel3" href="#visit">Call</a>
+</nav>
+
+<!-- Shared lightbox (dishes + gallery) -->
+<dialog class="lb" aria-label="Photo viewer">
+  <div class="lb__stage"></div>
+  <div class="lb__bar">
+    <p class="lb__cap" aria-live="polite"></p>
+    <p class="lb__count small tnum"></p>
+    <div class="lb__nav">
+      <button class="lb__b" data-lb-prev aria-label="Previous photo">←</button>
+      <button class="lb__b" data-lb-next aria-label="Next photo">→</button>
+      <button class="lb__b" data-lb-close aria-label="Close">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/vendor/lenis.min.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

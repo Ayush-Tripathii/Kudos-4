@@ -1,0 +1,352 @@
+{
+ "dish-wonton": {
+  "src": "dish/wonton.jpg",
+  "pos": "58% 62%",
+  "drive": "1FChywn0cPZ5xjJZeV--OwhbRY8QffMAM",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1600,
+  "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC1FwAB1TYm5OBzcz/YPmgA/uO6p5swt/R2okvP51l0V6MFrEhDJf9nyp7im38Fjy3Ky+sJ+qyeTYmGfqTnq6IJmXr32dcU5LzKYwjNgTSHnn943uK3qR5UCwYA+xIbYX61xQyl81TojeMAQAAA"
+ },
+ "dish-mexican-rice": {
+  "src": "dish/mexican-rice.jpg",
+  "pos": "50% 55%",
+  "drive": "18JEFCZWgW84r2I7Lx7kZP7jpJQXk4hFz",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1600,
+  "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwAdCs4eBqFdlYglIgbT7QAP7e6R0tAhlu9YPED3R8jKRO8SFtQhnNvu5IEz5hQDabUlgQHRUOky/Ff1Wycay4uyd4PfVOIer1WvNK+5ju+cvDA/Tut1bQ5hQTGMWlLSlRlYlZ9pblgAd87O4smg5Wt59Ul5OyBagx5CGEw98zrH5lk/8EjHcAAAA="
+ },
+ "dish-beetroot-tikki": {
+  "src": "dish/beetroot-tikki.jpg",
+  "pos": "50% 62%",
+  "drive": "19h228D8-vkakRhRN7mUV5tIQHfHwGuC7",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAABQBgCdASoYACQAPu1irU8ppSSiMBVaqTAdiWMAx+gIHZgORZfQLes5MYJcF3q4Hi7XOfimIYYlb88KyAD+9onVODKWAh/dyFAOgfBhuv4If+7692+wFouhZ5Izy55rGQMJwC6Wfr2n1eVIyeL5ZgjCq1V2jHPSRkqpa5z+4Gao9uR9ZuySGsTSzyl3jN/9CFEYz3/Epz/ws7hgp2gyIMKeZ4xoZdD2bMRCSAo/aO+IqBp41DzN1JRVnwaLcVNsX9500RLvkwZBeH8jfXFtqB9L5wLftibqdA+pJlZ4BNdzRYTXXoht/6V0awTytgAA"
+ },
+ "dish-tandoori": {
+  "src": "dish/tandoori-chicken.jpg",
+  "pos": "50% 52%",
+  "drive": "1VfcFVU-oLpWLqpm8AFqcbv3MoaKa51kp",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAAAQBgCdASoYACQAPu1iq08ppSOiMBVaqTAdiWQAwc2M2kMfrq0ris59gr6UfmKRVzFGUnOfdRCq/QAA/uNNGm5xUyvZbAHXG4tRk8d0tt9fcW1e0EIjdzti/40SU/PWusF4hq6aApOtjK0683IOPB2MH4JFbe3toXPuLP2CLGgl4wNxclHe2ug6zElIXQa2zsu4WlskysHaqF5dwR9Ly0bR3SiKK+/6xNb2yEX8jGI3z8X6HL8Q+K79Dp1MRpiXHBM68xFLmG8ODabKMurPlKIjh2Qbv25vNt5i2uWWzpXOcvRcOSFtsOV59AAAAA=="
+ },
+ "dish-seekh-naan": {
+  "src": "dish/seekh-naan.jpg",
+  "pos": "55% 58%",
+  "drive": "1rOUHmvH26oRiyfVDG0a5Hw83Dm89onVL",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACwBQCdASoYACQAPu1irk6ppSSpsBVaqTAdiWMAxkAuPjLgg01ZwWB6kwRGQb0zjXXi6mAm5yYA/vFl7qURawDZXPa4QB2llkCpvugdfxE3atdyz5t3v9rK4dvkT6aKT9q43n/3DsGx872yG4DQBnoNj92n2GzzV0Ha8Ps87b4jkvA1NWFLasA8k2tPbNvekl36dJFxaXG07eP/wurqZRB5o76nwtAu/u7xY+iSvqd21aoAdiopvqV3d9IVhrViTc+K3tR7idlVGaAAAAA="
+ },
+ "dish-sham-savera": {
+  "src": "dish/sham-savera.jpg",
+  "pos": "50% 48%",
+  "drive": "1_GqhRt6AhGeyRRKlNV3HrS_UK5Zg-mOZ",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2467,
+  "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAACwBQCdASoYACUAPu1irE8ppSQiMBVaqTAdiWMAA+T60b5WJfTUqGGMRySjNtld/E9ySbIHD4gA/vLVx+M9Ujj7kaI2Cha70SQZR+5W7uVHcfw3sev3ZbmrGcvqNCaCEBWV7OjO8ZqxvbDn2Lh+SJATQEDIMKPBK3goujMN5Xy1Vqu7dCyfoI4KM3SAQCHTj2iIUSY2Cf4QzX3RlAyyi0V61QJK78Zw08KllfBY2jLU+k0CI01sX6z1f+h2JzKpFV3ZbY/wAAA="
+ },
+ "dish-pasta": {
+  "src": "dish/pasta-9.jpg",
+  "pos": "50% 60%",
+  "drive": "12FUMImDCUbtLfr7c6a0cx3B2rgerWhDt",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRjQBAABXRUJQVlA4ICgBAABwBgCdASoYACQAPu1srlIppaQipWsxMB2JagDDVUwDwgF/jm+4zL70vbbF3zV84uuiujEBAklCjutBgdAA/vM02tsLs0k+VI+F70cUQWrXX3C5euf5wO/e7ncGL1VUQcg/kdUhq3YjL4+P/DhjetMdcfiSfMPUw9hfeABTOVBRu2PUMi+tGR5/jNYqxpjCEWxqh+CdsDtubG19NeV2otpbGqES5pj1lNsl+h7XaIZelg47OB+Sf4591lw6bANcCmoVYiK15BrghgHGhbV//jlXtvyw9VIGoIeWBxNqDl2QbWMDXdxjIwANXowjOCWnRASrOjXKgSrCdbAFd5L00ASE7ZhSX6aWecYSmeUw3WaFK1MF7S25mtZjX7HiEzZddvvB2xJpekYAAA=="
+ },
+ "dish-veg-lasagna": {
+  "src": "dish/veg-lasagna.jpg",
+  "pos": "50% 60%",
+  "drive": "1c2ThB3cDMwrbfnzX2hLMl1pF1z8BSUin",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRkoBAABXRUJQVlA4ID4BAACQBwCdASoYACQAPu1urlIppiQipWsxMB2JagCw82yW8UDBNGEJJutd8c2ZkTHZ2FSDeIMhBZCWMmKtI2Iy6lPpibggjAAA/vWTqo6bnpKmKxptbyQECMEa3FKbtuLSH3YYFkRH19oTwpVPlcahCXEERCjP/H2OOMaLl3dO81/jHGhoOfUvOZLalW7kxAYhxu6nVuI1OxsBwEgMYci26uHinaWQZuIDH6M1oqzTIPbOhGJoqRDYGfkjWaiBTAeF/1BR/46k51ZBeBDHqrEnnjndCDm2R0odxiBxJRk4QUFXXf+u6y6kbAaFJ5hu+3v3AZCogHrr5/Qf7W2HunxFz4yjI4xFi3if1FonDpAQSUOC2thMArvQ+ogbz4a1Ex+E08IB2HvbsiB3FhoSPqo2nAM1n4g+Q+soT5G0m6Uc4AA="
+ },
+ "dish-laal-maas": {
+  "src": "dish/laal-11.jpg",
+  "pos": "50% 45%",
+  "drive": "1PC132h6XcVjTkFrplGtz1PdAdgdJTWIa",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRlABAABXRUJQVlA4IEQBAADwBwCdASoYACQAPu1urlIppiQipWsxMB2JZgCdMxAv/qZqUAI3nhSI8KbJiV95RgteB5HbHi/RnK47EAU5W/W6FGfgHigbcAAA/opGdYK8djpIOCx+j0Srffg120b654OXoYVjo+Pq26CW40/ePIbHNfGR8/FAkvD7+ZJQh05oq/5Mq/be4LS1j9QX5KAb/M1WiQeepCCreXdmsPx5I7Ezkxl0FzdSNJ2UeHlrvrvlsP+yquYhaDbh/L39cdTTmlK+ovKJ90RkggnuXB3OFF6cLGuEWNBULZtcrZVSEN2leX0y40+156fOJNiwvg0n4jgIz6CVtytWMiGQFyq9AjyL3x6Wn7kibBA5lfittuSzrP18jEZCn6P2KrFofbLAurfXcIadzNpNT0oOliomLwuBr07hoelxJQzC9kEInNFlqTxAAAA="
+ },
+ "gal-pasta-alt": {
+  "src": "dish/pasta-8.jpg",
+  "pos": "50% 62%",
+  "drive": "1_cElnlizoCOdk9fgljV7cU8vfy8uPy-M",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAAAQBgCdASoYACQAPu1oq1AppaOjKrgMATAdiUAAfMxA1+F4PVL7jcEj9bUfFArTA9hCV3bFvxhLSAAA/u6ppfK8P+6nRdM5eirS+XkCkYTDtgwopBBE+4EqgTrp6DGz+q+SVXF71gXUOesX1DSDFZfIO0DS6Mx44z9+j1C4+zlmwlqrFV3idOnEXGYERWV89Yi3RRkmatofoI5mVoVox9P2FLauEv5MLlEkGURso4jIsvizj99Ck3QtfsYcn6iF+h/LtVD2stuOlSLfO2rHXeaAiMlovwAA"
+ },
+ "dish-egg-curry": {
+  "src": "dish/fried-egg-curry.jpg",
+  "pos": "50% 56%",
+  "drive": "1WeqKePpULZHM9uGLDoFdb8GkAffMV1R4",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4IA4BAACQBgCdASoYACQAPu1kqk2ppaQiMBqqqTAdiUAYbjGgTeHhR4db9Qy78Kn8X3t99hNkbKDVNX9P1GrYYlsAAP7axz2l5WD5L6aGsdRsoTxHjMgH56bbK3r8kdXcR3v0SCOjpeEhNZrTietHSWP2rgC8zVo/TUdQv0nt0FeNSpvHAwRVLYcE8WH1WdLFXHz0WyEZ+8f889m/jyYgbFcbWVnpMzoZd61fcvg6bqvGyClN8saXP84wfvmp27LmOvZfELK8zWh1+EVHoeaySnWCC9WA4QgS0BVDNHuGKluDlTTYF9eb3Mt2H6TwvtaXMCXslpUoXfAeAj6OEsfnzOUO2IIGw93IqMayWbT70a0AAAA="
+ },
+ "gal-laal-alt": {
+  "src": "dish/laal-10.jpg",
+  "pos": "50% 55%",
+  "drive": "17bWNIz04GMkufkOhw8W5f_PFnxDjx-dL",
+  "widths": [
+   480,
+   768,
+   1200,
+   1600
+  ],
+  "w": 1600,
+  "h": 2400,
+  "lqip": "data:image/webp;base64,UklGRiABAABXRUJQVlA4IBQBAAAQBgCdASoYACQAPu1srE8ppqQiKrgMATAdiUAYm4ECP2t7AaqLs2glllLb7Fsf8TxKTyoo93webgAA/VNwJaQiyEts3qiKnhUtEEPtS3tt6nhFeWJDMzXhfdy7C82KZ04WG1fAJQgIcuISQeVZjXXEWATotK/qqmqQNyL8A9Sp+KJedYm21E0OLHV/xmUaOidgim1AcwPQIaFdI8Rib8PziBgLqosyySEysR8Dtv1c465gJuu8JxDQ+lN8mJq6FV9psIG0y8X2H+AlrbZr0etcl3wd50SMXr4JivG72pXaEDgLccwlfey1dJQA+MHQIYamgnD8Th0rQiXitBCkKk+60NeFWReBs8CUmm271EFyTaAAAAA="
+ },
+ "hero-evening": {
+  "src": "prop/DSC09270.jpg",
+  "pos": "45% 55%",
+  "drive": "1WvLh3BGI4beyY65Qs05fMCxjg8WjxLJG",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1591,
+  "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUAlgECKL/i/4AsbOBpQrtgXgAP3Op3oWZjpNxWO2NWMWF2S+pnkY48df80KJt68fq0g7FhMYCIXnnl6wiVQIPBekmpReFrqm+c5TfIPqNQGBbd8CsPfPpdwf/81LFZGpnMZP56g8qI2dnXJinEuIh1nbQGImNgAA"
+ },
+ "hero-golden": {
+  "src": "prop/DSC8254.jpg",
+  "pos": "40% 55%",
+  "drive": "1e0wurY-d6-LR2Pd-XIINWIBHF5-nU5pn",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1630,
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JYwCdAYvg3xsRxlId9jMcQAD+kB4zR1MvuelhqTHsBVtN81sH67wzT895U1BljZsRjMzz+UwV0DD39ZJ9AT6liX7W3Gk1X01F7JaZRmdtS0kdX4txlTqOsznb+DD6qcQ/MsuvDdRBqSQtukVYkXWZpc8bkA4yXxKeEHGu92tzUoTh8bgAAA=="
+ },
+ "hero-afternoon": {
+  "src": "prop/DSC08110.jpg",
+  "pos": "42% 50%",
+  "drive": "1jZjicJh0lUUeWxv9e2ECO-UI25ukllvE",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1605,
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7ICXDEkYmpLY1SEvuwsAA/tNw44yLgDboR9pBQYxCGs6XDHpsJW0XV9uU7FRqE9A4XoVGz/IRCyZpxYkyVpYPI+h5Y+h6nRF3mmMzfEYktIhAF0gmB2WFpkeMCzMVHG+0BjvqPvAhCDv2tr240UOBdwPOcE1oQymLsADdcAAA"
+ },
+ "hours-evening": {
+  "src": "prop/DSC09159.jpg",
+  "pos": "50% 62%",
+  "drive": "1hGGXoapCYt2QzWBl61RQL28pGAx5UaKx",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1620,
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdAdwA+ZkIe2dH3NRUoKAA/j5Ry06Rcg0bP9pWt+mWjCSBytr57JH07MKz5FKyF+dQoEhcJyTrDDWBQUhchOw4fqhc8VfDGPEtXLrtzHGiEuiTHxZ3mleex9XWWz5R9bZ7RlqgTRlxNqInAE71M0fOuy5QgwvZw+NLzsrDr3Xe8/MAAA=="
+ },
+ "hero-late": {
+  "src": "prop/DSC09281.jpg",
+  "pos": "30% 50%",
+  "drive": "1ibpFg_tPmGnTQLZDrbjeIutxk71B8VNr",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1578,
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgA0dky9BGHCHJHL0kAMtO5iEP03rNy4lzLNUQT6BYhpFLUqe/AEl8Waya3Zx23e3jmbbxciV9AkCI/AEebNxTFfT6DKIGKCNeR0ZMFmOmzy6JbXqiEkQroQ9SfYGPk/CDpHtGH4ve2sX089T4sRyWclZwaldWJcDwgmUOiPazcEGeAA=="
+ },
+ "hours-golden": {
+  "src": "prop/DSC09061.jpg",
+  "pos": "35% 60%",
+  "drive": "1cNP-16x1Tjl7vUzEjGXT8PVypDIjmdVd",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1620,
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwDCgYx27SKbVKiZQCLH9RvSIgAA99MdR3IMyPRnerWjBvr14N5NPv/tmWouuuZ5FsYJmGLJ/Q3emnxFKbrlUNoLYNauIrhAks/kZbDmPAuZf+E6y8+R36tr2vxQP33JVChW90+jAmyQngCJRLGMq4XhFT6cgAA="
+ },
+ "story": {
+  "src": "prop/DSC09131.jpg",
+  "pos": "50% 62%",
+  "drive": "1bNMxLXiam2OCvPUBlOBMAMYbj-QunhZr",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1601,
+  "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQBdgZYA2gPQ9j6f0VYq1KdPCAAD+r0s9DjT0RrbaaAYCED1XiQIjeBTpp6la7eWNXHeITc2pK2ISGucHkCV96qZqjquvlbNB9mpcNc6GNexq2zhn6JCZ8rReuX3CX+uy0wz33tDmwByiwAA="
+ },
+ "hours-night": {
+  "src": "prop/DSC09293.jpg",
+  "pos": "55% 58%",
+  "drive": "1GYVnmMEIIofSA--VdqYOyHBh_i8EP9Vj",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1601,
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBD4PhwezICDwqEuAAP6bfvIHdy69ZMpPtkSSEABO7pcj69QyQIAfCf93zq1A/DKCbUVer/hZdDSfebSH1p7nKimVEwiLPqjOtD4EGeiGYWMrWzsBI35o16Go/3w/AmThHTy1zjGmw51G4NiH0zPh69b3Kuo1y6uOZyL6uASKQziQAA=="
+ },
+ "events-stage": {
+  "src": "prop/DSC08527-HDR.jpg",
+  "pos": "48% 58%",
+  "drive": "1czAfkb3FRYn_DNhcD2T3wNhbJVh-edq3",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1600,
+  "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7ACBu0aO9EdjO62XnAAD+WW/AlaSsannkxKit6yucU/YyG3yIEB4rq1I6LVEd3eh636q3Dy4BZ0lXoz85Dvjc0cKVhgHZjhhj3SCW7FTI30BvW+s0DNQJspuXET1DOWZo90TzQ5VJUAA="
+ },
+ "gal-terrace-wide": {
+  "src": "prop/DSC08944.jpg",
+  "pos": "50% 60%",
+  "drive": "1KUy-x3liavpkshDjy3qoSY_HmZ2hCA2G",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1612,
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoYABAAPu1kqU2ppaOiMAgBMB2JZwAASpatombBOz7PUWB0OYAA/ow7j46v9cGAyZnNdXPXxsqbfb1EgIM64JO5arDNVHkEXv43ff0N8Bq/IkQrunHd7XDB5tS00paFn+Z4YRl6qMPbzF6v7hbYsvWLLgAAAA=="
+ },
+ "gal-glass-room": {
+  "src": "prop/DSC09284.jpg",
+  "pos": "50% 60%",
+  "drive": "1YChL_u_G3CkBegTNKyPNhLPEWRGFrd-N",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1604,
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgMZAY1/u5R7dfZ5wn3l2VgADONn0cyqiKv2kVk1d97c+4CL24tdlStKnb59a/WTeIh9Z2j7jl895hvFZ5CVWY7UmmSDmW/scSXRHg7WF72HMf5uTeqvJXq4IW/CNTGVKZd2qxAoW4kCXemq0d850tVXQbz+g3T+zoVKBnL+tksqugAA=="
+ },
+ "gal-terrace-lamps": {
+  "src": "prop/DSC09016.jpg",
+  "pos": "45% 62%",
+  "drive": "1XZE3v_O6Nuqe-AGhrZNzsyrarlVym4Kd",
+  "widths": [
+   480,
+   768,
+   1200,
+   1920,
+   2400
+  ],
+  "w": 2400,
+  "h": 1628,
+  "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZQAD5gFSX6nV7iiECAD+iPQ2JAToWW9KbWUrJAI9fpNTDlsWEIJyqFt4X3HIWUfJe2U0e/1FbZaEhLdS3mjX4ROAHil1N6Rclpl+6cMa+jeLOqfEAwW/GPtZr2brnK9uW6Hk0cbp3ikcHBgPy4VgAAA="
+ }
+}

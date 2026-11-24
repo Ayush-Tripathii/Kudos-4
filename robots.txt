@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /_src/
+Disallow: /src/
+
+Sitemap: {{SITE_URL}}/sitemap.xml

@@ -1,0 +1,11 @@
+import puppeteer from 'puppeteer-core';
+const OUT = process.argv[2];
+const b = await puppeteer.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: 'new' });
+const p = await b.newPage(); await p.setViewport({ width: 1440, height: 900 });
+await p.goto('http://localhost:5178/index.html', { waitUntil: 'networkidle0' });
+await p.evaluate(() => document.querySelector('#hours').scrollIntoView()); await new Promise(r => setTimeout(r, 1500));
+console.log(await p.evaluate(() => [...document.querySelectorAll('.hcard')].map(c => [c.id, c.className, getComputedStyle(c).opacity, getComputedStyle(c).visibility].join(' '))));
+await p.evaluate(() => document.querySelector('#tonight').scrollIntoView()); await new Promise(r => setTimeout(r, 1500));
+console.log(await p.evaluate(() => [...document.querySelectorAll('.tt')].map(c => getComputedStyle(c).opacity).join(',')));
+await p.screenshot({ path: OUT + '/probe-tonight.png' });
+await b.close();

@@ -1,0 +1,17 @@
+# Raw image originals (284 MB)
+_src/
+
+# Node dependencies
+node_modules/
+tools/node_modules/
+
+# Test artifacts and screenshots
+tools/*.png
+tools/*.json
+tools/*.log
+!tools/package.json
+!tools/package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en-IN" data-state="afternoon" class="ph-on no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kudos Restro Lounge — Rooftop restaurant with a Lake Pichola view, Udaipur</title>
+<meta name="description" content="Kudos is a rooftop restro lounge in Udaipur with a Lake Pichola and City Palace view. Multi-cuisine food, cocktails, sunset dining and music nights — Saturday Socials and Purani Playlist. Book a table on WhatsApp.">
+<link rel="canonical" href="https://ayush-tripathii.github.io/Kudos-4/">
+<meta name="theme-color" content="#F3F1EC">
+<meta name="color-scheme" content="light only">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Kudos Restro Lounge">
+<meta property="og:title" content="Kudos — Rooftop restro lounge, Udaipur">
+<meta property="og:description" content="Good food. Great drinks. Beautiful views. Music that sets the mood. A rooftop over Lake Pichola, facing the City Palace.">
+<meta property="og:url" content="https://ayush-tripathii.github.io/Kudos-4/">
+<meta property="og:image" content="https://ayush-tripathii.github.io/Kudos-4/assets/og-kudos.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A table on the Kudos rooftop terrace looking across Lake Pichola to the City Palace, Udaipur">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kudos — Rooftop restro lounge, Udaipur">
+<meta name="twitter:description" content="Come for the view. Stay for the vibe. Lake Pichola, City Palace, good food and music until late.">
+<meta name="twitter:image" content="https://ayush-tripathii.github.io/Kudos-4/assets/og-kudos.jpg">
+
+<!-- Icons -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Fonts: Fontshare (ITF FFL), self-hosted, latin only -->
+<link rel="preload" href="assets/fonts/clash-display-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/switzer-400.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Live state, before first paint: pick the IST time-of-day so only the right hero
+     photograph is requested. site.js refines the golden-hour edge with the real sunset. -->
+<script>
+(function(){
+  var d=document.documentElement; d.classList.remove('no-js'); d.classList.add('js');
+  var t=new Date(Date.now()+330*60000), m=t.getUTCHours()*60+t.getUTCMinutes(), s;
+  s = m>=60&&m<720?'closed': m<990&&m>=720?'afternoon': m>=990&&m<1140?'golden': m>=1140&&m<1320?'evening':'late';
+  d.setAttribute('data-state',s);
+  var H=/*@heroPreload*/{};
+  var p=H[s]; if(p){var l=document.createElement('link');l.rel='preload';l.as='image';l.type='image/avif';l.setAttribute('imagesrcset',p);l.setAttribute('imagesizes','(min-width:1024px) 58vw, 100vw');l.setAttribute('fetchpriority','high');document.head.appendChild(l);}
+})();
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+
+<!-- Single source of truth for everything the client must supply. -->
+<script type="application/json" id="kudos-config">
+{
+  "showPlaceholders": false,
+  "geo": { "lat": 24.5764, "lng": 73.6835, "note": "Ambavgarh, Lake Pichola view, Udaipur" },
+  "phone": "+91 98290 12345",
+  "whatsapp": "+919829012345",
+  "instagram": "https://instagram.com/kudos.udaipur",
+  "menuPdf": "#food",
+  "mapsUrl": "https://maps.google.com/?q=Kudos+Restro+Lounge+Udaipur",
+  "hours": {
+    "note": "12:00 PM to 1:00 AM daily",
+    "open": "12:00", "close": "01:00", "lastOrders": "00:30",
+    "days": { "mon": ["12:00","01:00"], "tue": ["12:00","01:00"], "wed": ["12:00","01:00"], "thu": ["12:00","01:00"], "fri": ["12:00","01:00"], "sat": ["12:00","01:00"], "sun": ["12:00","01:00"] }
+  },
+  "recurring": [
+    { "name": "Saturday Socials", "weekday": 6, "detail": "Every Saturday from 8 PM · Live DJ sets & rooftop energy" },
+    { "name": "Purani Playlist", "weekday": 3, "detail": "Every Wednesday from 7:30 PM · Retro classics & nostalgic melodies" }
+  ],
+  "events": [
+    { "name": "Sunset Acoustic Sessions", "date": "Every Sunday", "detail": "Live acoustic guitar by the railing from 5:30 PM" }
+  ]
+}
+</script>
+
+<!--@jsonld-->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ───────────────────────── TOP BAR ───────────────────────── -->
+<header class="topbar" id="top">
+  <div class="topbar__in wrap">
+    <a class="brand" href="#top" aria-label="Kudos Restro Lounge — back to top">
+      <span class="brand__icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 10a3 3 0 1 0 6 0"/><path d="M12 18v3"/></svg>
+      </span>
+      <div class="brand__text">
+        <span class="brand__word">KUDOS</span>
+        <span class="brand__sub">Rooftop · Udaipur</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#tonight">Tonight</a><a href="#food">Food &amp; Drinks</a><a href="#story">Story</a><a href="#hours">Hours</a><a href="#events">Events</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+    </nav>
+    <div class="topbar__end">
+      <p class="pill" aria-live="polite"><span class="pill__dot" aria-hidden="true"></span><span data-live="pill">Open daily · 12 PM – 1 AM</span></p>
+      <a class="btn btn--clay btn--sm topbar__cta" href="#visit">Reserve Table</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ───────────────────────── 01 HERO ───────────────────────── -->
+<section class="hero wrap" aria-labelledby="h1">
+  <div class="bento">
+    <figure class="tile tile--a hero__media">
+      <!--@img key="hero-afternoon" alt="A glass-topped table set with plates and a cocktail on the Kudos rooftop, Lake Pichola and the City Palace across the water in daylight" sizes="(min-width:1024px) 58vw, 100vw" class="hero-pic drift" pattrs="data-for='afternoon closed'" priority="1"-->
+      <!--@img key="hero-golden" alt="The Kudos rooftop dining terrace in late-afternoon light, Lake Pichola and the Aravalli hills beyond the railing" sizes="(min-width:1024px) 58vw, 100vw" class="hero-pic drift" pattrs="data-for='golden'" priority="1"-->
+      <!--@img key="hero-evening" alt="The rooftop at dusk with table lamps lit, the bar glowing amber and city lights coming on over the hills" sizes="(min-width:1024px) 58vw, 100vw" class="hero-pic drift" pattrs="data-for='evening'" priority="1"-->
+      <!--@img key="hero-late" alt="Night on the Kudos terrace: the City Palace lit up across Lake Pichola beyond the set tables" sizes="(min-width:1024px) 58vw, 100vw" class="hero-pic drift" pattrs="data-for='late'" priority="1"-->
+      <figcaption class="chip chip--float chip--hero">
+        <svg class="chip__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span data-live="heroCaption">Lake Pichola · West Terrace · City Palace View</span>
+      </figcaption>
+    </figure>
+
+    <div class="tile tile--b hero__intro">
+      <div class="hero__badge-row">
+        <p class="label">Rooftop Restro Lounge · Udaipur</p>
+        <span class="badge-accent">360° Panorama</span>
+      </div>
+      <h1 id="h1" class="h1">Udaipur has its own rhythm. <span class="h1__accent">We have our own way of playing it.</span></h1>
+      <p class="lede">Good food. Great drinks. Panoramic lake vistas. Music that sets the mood.</p>
+      <p class="body">A covered rooftop above the old city, looking straight across Lake Pichola to the illuminated City Palace. Long breezy lunches, sundowner cocktails as the sun drops, and music until late.</p>
+      <div class="hero__tags">
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Rajasthani &amp; Global</span>
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 22h8M12 11v11M19 3l-7 8-7-8h14z"/></svg>Artisan Cocktails</span>
+        <span class="htag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>Sunset Dining</span>
+      </div>
+      <div class="actions">
+        <a class="btn btn--green btn--lg" href="#food">
+          <span>Explore the Food</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a class="btn btn--line" href="#visit">Reserve Table</a>
+      </div>
+    </div>
+
+    <div class="tile tile--c tile--forest clock" aria-label="Current time in Udaipur">
+      <div class="clock__top">
+        <p class="label">Udaipur Live Time</p>
+        <span class="clock__ist-tag">IST (UTC+5:30)</span>
+      </div>
+      <p class="clock__time tnum" data-live="clock" aria-hidden="true">--:--</p>
+      <p class="clock__state"><span class="dot" aria-hidden="true"></span><span data-live="stateLabel">Open Now</span></p>
+    </div>
+
+    <a class="tile tile--d tile--clay cta" href="#visit">
+      <div class="cta__top">
+        <span class="label">Instant Confirmation</span>
+        <svg class="cta__arrow-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <span class="cta__h">Reserve a table.</span>
+      <span class="cta__s">Pick your time &amp; table — confirms straight on WhatsApp.</span>
+    </a>
+
+    <div class="tile tile--e tile--stone vitals">
+      <dl>
+        <div>
+          <dt><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Hours</dt>
+          <dd><span class="ph" data-ph="HOURS">12:00 PM – 1:00 AM daily</span></dd>
+        </div>
+        <div>
+          <dt><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg> Avg for two</dt>
+          <dd><span class="ph" data-ph="PRICE_RANGE">₹1,200 approx.</span></dd>
+        </div>
+      </dl>
+      <a class="link" data-live="mapsLink" href="#visit">Get directions to rooftop</a>
+    </div>
+
+    <div class="tile tile--f tile--sand hero__vibe">
+      <div class="vibe__quote-mark" aria-hidden="true">“</div>
+      <p class="statement-sm">Come for the view. Stay for the vibe.</p>
+      <p class="small vibe__meta">Sunset today at <strong class="tnum" data-live="sunsetShort">—</strong> · Best vista from <span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">the lake railing tables</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 02 TONIGHT ───────────────────────── -->
+<section id="tonight" class="sect wrap" aria-labelledby="tonight-h">
+  <div class="panel panel--forest">
+    <header class="sect__head sect__head--onforest">
+      <div class="sect__pill-row">
+        <p class="label">02 — Live Experience</p>
+        <span class="live-pill"><span class="pulse-dot"></span> Live in Udaipur</span>
+      </div>
+      <h2 id="tonight-h" class="h2">What the roof is doing <span data-live="todayWord">today</span>.</h2>
+    </header>
+    <div class="tonight">
+      <article class="tt tt--now rv">
+        <div class="tt__head">
+          <p class="label">Current Atmosphere</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </span>
+        </div>
+        <p class="tt__state" data-live="stateBig">Afternoon</p>
+        <p class="tt__mood" data-live="mood">Lake breeze, long lunches and the palace in full daylight.</p>
+      </article>
+      <article class="tt tt--on rv">
+        <div class="tt__head">
+          <p class="label">Music &amp; Energy</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </span>
+        </div>
+        <p class="tt__event" data-live="eventName">Just the roof</p>
+        <p class="tt__detail" data-live="eventDetail">Nothing ticketed tonight. The playlist, the lake and a table with your name on it.</p>
+        <a class="link link--onforest" href="#events">View upcoming nights</a>
+      </article>
+      <article class="tt tt--sun rv">
+        <div class="tt__head">
+          <p class="label">Golden Hour Sunset</p>
+          <span class="tt__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          </span>
+        </div>
+        <p class="tt__big tnum"><span data-live="sunset">—</span></p>
+        <p class="tt__detail" data-live="sunsetDetail">Today's sunset over Lake Pichola &amp; the Aravalli hills, calculated for this rooftop.</p>
+        <div class="meter" aria-hidden="true"><span data-live="sunMeter"></span></div>
+      </article>
+      <a class="tt tt--book rv" data-live="waTonight" href="#visit">
+        <div class="tt__head">
+          <span class="label">Fast WhatsApp Booking</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </div>
+        <span class="tt__book">Book tonight on WhatsApp</span>
+        <span class="tt__detail">Tell us your time and party size; we confirm on the same chat in seconds.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 03 FOOD ───────────────────────── -->
+<section id="food" class="sect wrap" aria-labelledby="food-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">03 — The food</p>
+      <h2 id="food-h" class="h2 h2--xl">Not too fine. Never ordinary.</h2>
+    </div>
+    <div class="food__intro">
+      <p class="lede">A menu doesn't need fifty ingredients in every dish. A plate doesn't need an architectural presentation.</p>
+      <p class="body">Rajasthani heat from the handi and the tandoor, a handful of favourites from further away, and one rule in the kitchen: get the basics absolutely right.</p>
+    </div>
+  </header>
+
+  <div class="filters" role="toolbar" aria-label="Filter dishes">
+    <button class="fchip" aria-pressed="true" data-filter="all">All <span class="tnum">10</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="small">Small plates <span class="tnum">4</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="main">Mains <span class="tnum">6</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="indian">Rajasthani &amp; Indian <span class="tnum">6</span></button>
+    <button class="fchip" aria-pressed="false" data-filter="intl">International <span class="tnum">4</span></button>
+    <p class="filters__key small"><span class="sig" aria-hidden="true"></span> Signature <span class="vg vg--v" aria-hidden="true"></span> Veg <span class="vg vg--n" aria-hidden="true"></span> Non-veg</p>
+  </div>
+  <p class="sr-only" aria-live="polite" data-live="filterStatus"></p>
+
+  <!--@dishes-->
+  <p class="food__close statement">The food should do the talking.</p>
+</section>
+
+<!-- ───────────────────────── 04 STORY ───────────────────────── -->
+<section id="story" class="sect wrap" aria-labelledby="story-h">
+  <div class="story">
+    <figure class="story__media tile">
+      <!--@img key="story" alt="The Kudos rooftop dining room at dusk, a red table lamp in the foreground and the amber-lit bar at the back" sizes="(min-width:1024px) 48vw, 100vw" class="hov"-->
+      <div class="story__badge">Since Udaipur Days</div>
+    </figure>
+    <div class="story__copy">
+      <div class="story__header">
+        <p class="label">04 — The story &amp; heritage</p>
+        <h2 id="story-h" class="h2">We decided to rebuild while keeping the doors open.</h2>
+      </div>
+      <div class="body body--story">
+        <p>A few years in, Kudos was struggling. The easy move was obvious: pull the shutters down, repaint, relaunch under a new name and hope nobody remembered.</p>
+        <p>We didn't. We rebuilt in place, slowly, one service at a time, with guests still walking in every evening. New plates went out next to old ones. Some nights you could see the seams.</p>
+        <p><strong>We chose evolution over disruption</strong>, because the people who stayed with us through the awkward months deserved to see where it went. It still isn't finished. Something on the roof, the menu or the playlist keeps getting a little better, and the regulars usually notice first.</p>
+      </div>
+    </div>
+    <div class="story__evolve tile tile--sand statement rv">
+      <div class="evolve__glyph" aria-hidden="true">“</div>
+      <p>Kudos is not just a restaurant that changed. It is a restaurant that continues to evolve.</p>
+    </div>
+    <blockquote class="story__note tile tile--stone rv">
+      <div class="quote__icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+      </div>
+      <p>The best compliment a restaurant can receive is not just a good review. It is seeing the same guests walk through its doors again.</p>
+      <footer><span class="sig-line" aria-hidden="true"></span>— Vathsaal Jogani, Founder &amp; Host</footer>
+    </blockquote>
+
+    <div class="story__pillars rv">
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3 class="pillar__h">The Panoramic Vista</h3>
+        <p class="pillar__p">Front-row view over Lake Pichola to the City Palace and Jag Mandir, bathed in Rajasthan's legendary evening light.</p>
+      </div>
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        </div>
+        <h3 class="pillar__h">The Kitchen Discipline</h3>
+        <p class="pillar__p">Rajasthani slow-cooked handis, coal-fired tandoor, artisanal Italian pastas, and fresh local ingredients every single morning.</p>
+      </div>
+      <div class="pillar tile tile--stone">
+        <div class="pillar__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <h3 class="pillar__h">The Evolving Soundtrack</h3>
+        <p class="pillar__p">A curated progression from chill midday grooves to golden hour downtempo, Saturday DJ socials, and nostalgic vinyl nights.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 05 HOURS ───────────────────────── -->
+<section id="hours" class="sect wrap" aria-labelledby="hours-h" data-mood="golden">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">05 — The hours</p>
+      <h2 id="hours-h" class="h2">Different moods. One destination.</h2>
+    </div>
+    <p class="body hours__hint">Drag through an evening on the roof, 5 PM to 1 AM. The marker shows where Udaipur is right now.</p>
+  </header>
+
+  <div class="hours">
+    <div class="hours__stage">
+      <article class="hcard" data-mood="golden" id="hc-golden">
+        <figure class="hcard__media">
+          <!--@img key="hours-golden" alt="The open rooftop terrace in the late afternoon, tables set along the railing above Lake Pichola" sizes="(min-width:1024px) 60vw, 88vw" class=""-->
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">5 PM – 7 PM</p>
+          <h3 class="h3">Golden hour</h3>
+          <p class="hcard__lead">The sun begins to settle over Udaipur. The city changes colour. Lake Pichola reflects the evening sky.</p>
+          <p class="body">Ask for <span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">a railing table</span> when you book. Get here half an hour before sunset and order the first round while the palace still holds the light.</p>
+        </div>
+      </article>
+      <article class="hcard" data-mood="evening" id="hc-evening">
+        <figure class="hcard__media">
+          <!--@img key="hours-evening" alt="The Kudos bar lit in amber under its glass racks, the stage and dining tables beside it" sizes="(min-width:1024px) 60vw, 88vw" class=""-->
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">7 PM – 10 PM</p>
+          <h3 class="h3">Evening</h3>
+          <p class="hcard__lead">The music finds its rhythm. The bar becomes more active. Friends gather, couples settle in, conversations grow louder and the energy begins to build.</p>
+          <p class="body">Around eight the bar hits its stride. Come as a group, order to share, and let somebody else choose the next song.</p>
+        </div>
+      </article>
+      <article class="hcard" data-mood="night" id="hc-night">
+        <figure class="hcard__media">
+          <!--@img key="hours-night" alt="The glass-walled dining room at night, warm table lamps inside and the lit old city beyond the windows" sizes="(min-width:1024px) 60vw, 88vw" class=""-->
+        </figure>
+        <div class="hcard__copy">
+          <p class="hcard__time tnum">10 PM – 1 AM</p>
+          <h3 class="h3">Late night</h3>
+          <p class="hcard__lead">The night belongs to the people.</p>
+          <p class="body">After ten the city lights do the decorating. The late crowd is locals, birthdays and people who said "one more" an hour ago. Kitchen's last orders <span class="ph" data-ph="LAST_ORDERS">12:30 AM</span>.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="scrub" aria-hidden="false">
+      <div class="scrub__meta">
+        <p class="scrub__clock tnum" data-live="scrubTime">5:00 PM</p>
+        <div class="energy" aria-label="Energy level"><span class="label">Energy</span><span class="energy__bars" data-live="energy" data-level="2"><i></i><i></i><i></i><i></i><i></i></span></div>
+      </div>
+      <div class="scrub__track" data-scrub>
+        <div class="scrub__zones" aria-hidden="true"><span>Golden hour</span><span>Evening</span><span>Late night</span></div>
+        <div class="scrub__fill" aria-hidden="true"></div>
+        <div class="scrub__now" aria-hidden="true" data-live="scrubNow"><span>Now</span></div>
+        <div class="scrub__handle" role="slider" tabindex="0" aria-label="Time of evening" aria-valuemin="0" aria-valuemax="480" aria-valuenow="0" aria-valuetext="5:00 PM, golden hour"></div>
+      </div>
+      <div class="scrub__ticks tnum" aria-hidden="true"><span>5 PM</span><span>7</span><span>9</span><span>11</span><span>1 AM</span></div>
+    </div>
+  </div>
+  <p class="hours__close statement">One destination. Multiple experiences.</p>
+</section>
+
+<!-- ───────────────────────── 06 EVENTS + GALLERY ───────────────────────── -->
+<section id="events" class="sect wrap" aria-labelledby="events-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">06 — Music &amp; nights</p>
+      <h2 id="events-h" class="h2">Two nights worth planning around.</h2>
+    </div>
+    <p class="body">The roof has a stage and a DJ booth, and two regular nights that fill it. Everything else is a good evening that happens without a poster.</p>
+  </header>
+
+  <div class="events">
+    <article class="ev tile tile--forest rv">
+      <p class="label">Saturdays</p>
+      <h3 class="ev__name">Saturday Socials</h3>
+      <p class="body">The week's fullest night on the roof. Friends arrive in groups, tables get pushed together, and the bar stops being a corner and becomes the centre of the room. Book ahead; Saturday walk-ins after nine are a gamble.</p>
+      <p class="small"><span class="ph" data-ph="EVENT_SCHEDULE">From 8 PM · line-up posted on Instagram</span></p>
+    </article>
+    <article class="ev tile tile--forest rv">
+      <p class="label" data-live="puraniDay"><span class="ph" data-ph="EVENT_SCHEDULE">Weekly</span></p>
+      <h3 class="ev__name">Purani Playlist</h3>
+      <p class="body">Old songs, the ones somebody's parents sang along to in the car. By the second verse the whole roof knows the chorus, including the people who swore they didn't.</p>
+      <p class="small"><span class="ph" data-ph="EVENT_SCHEDULE">Night and start time to confirm</span></p>
+    </article>
+    <figure class="ev ev--photo tile rv">
+      <!--@img key="events-stage" alt="The Kudos stage and DJ booth: a raised round platform under a black canopy, framed by speakers" sizes="(min-width:1024px) 33vw, 100vw" class="hov" pattrs="data-lb='gallery' data-cap='The stage and DJ booth'"-->
+      <figcaption class="chip chip--float">The stage &amp; DJ booth</figcaption>
+    </figure>
+  </div>
+
+  <div class="sched">
+    <div class="sched__head">
+      <h3 class="h3">Coming up</h3>
+      <a class="link" href="#visit" data-live="waPrivate">Private bookings &amp; celebrations → WhatsApp</a>
+    </div>
+    <ol class="sched__list" data-live="schedule" role="list">
+      <li class="sched__empty">Nothing on the calendar yet. Saturdays are always Socials; follow <span class="ph" data-ph="INSTAGRAM">@kudos.udaipur</span> for line-ups.</li>
+    </ol>
+  </div>
+
+  <div class="gallery" id="gallery" aria-labelledby="gallery-h">
+    <div class="gallery__head">
+      <div>
+        <h3 id="gallery-h" class="h3">The roof, the room, the plates</h3>
+        <p class="small gallery__hint">Lakeside terrace, ambient lighting &amp; dining spaces</p>
+      </div>
+      <div class="gallery__nav-btns">
+        <button class="rail__btn-nav" data-rail-prev aria-label="Scroll left">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="rail__btn-nav" data-rail-next aria-label="Scroll right">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="rail" tabindex="0" role="region" aria-label="Photo gallery — scrolls sideways">
+      <ul class="rail__track" role="list">
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: the full rooftop dining floor"><!--@img key="gal-terrace-wide" alt="The full rooftop dining floor under its canopy, hills and the city on three sides" sizes="(min-width:1024px) 44vw, 80vw" class="" pattrs="data-cap='The rooftop floor, mid-afternoon'"--></button></li>
+        <li class="rail__item rail__item--tall"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: Pasta Barbesca with garlic bread"><!--@img key="gal-pasta-alt" alt="Pasta Barbesca with black olives and two slices of garlic bread on a Kudos plate" sizes="(min-width:1024px) 22vw, 56vw" class="" pattrs="data-cap='Pasta Barbesca, with garlic bread'"--></button></li>
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: terrace tables with lamps lit"><!--@img key="gal-terrace-lamps" alt="Rooftop tables with yellow lamps lit and the Udaipur skyline beyond the railing" sizes="(min-width:1024px) 44vw, 80vw" class="" pattrs="data-cap='Lamps on, early evening'"--></button></li>
+        <li class="rail__item rail__item--tall"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: Laal Maas, full plate"><!--@img key="gal-laal-alt" alt="A full plate of Laal Maas, mutton in deep red gravy with fresh coriander" sizes="(min-width:1024px) 22vw, 56vw" class="" pattrs="data-cap='Laal Maas, the whole plate'"--></button></li>
+        <li class="rail__item rail__item--wide"><button class="rail__btn" data-lb="gallery" aria-label="Open photo: the glass room at night"><!--@img key="gal-glass-room" alt="The glass-walled dining room at night with the Kudos neon sign on the wall" sizes="(min-width:1024px) 44vw, 80vw" class="" pattrs="data-cap='The glass room, after dark'"--></button></li>
+        <li class="rail__item rail__item--note">
+          <div class="exp-card tile tile--forest">
+            <div class="exp-card__tag">Rooftop Experience</div>
+            <p class="exp-card__h">Every table has a view.</p>
+            <p class="small exp-card__p">Lake Pichola breeze by day, glowing City Palace lights by night. Reserve your preferred corner.</p>
+            <a class="btn btn--clay btn--sm" href="#visit">Reserve on WhatsApp</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="rail__progress" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- ───────────────────────── 07 VISIT ───────────────────────── -->
+<section id="visit" class="sect wrap" aria-labelledby="visit-h">
+  <header class="sect__head sect__head--split">
+    <div>
+      <p class="label">07 — Visit &amp; reserve</p>
+      <h2 id="visit-h" class="h2">A guest should never feel like a transaction.</h2>
+    </div>
+    <div class="visit__intro">
+      <p class="lede">Simple reservations with personal confirmation.</p>
+      <p class="body">Pick your preferred slot below and reserve directly on WhatsApp. Need special rooftop arrangements or large family seating? Message or call our host.</p>
+    </div>
+  </header>
+
+  <div class="visit">
+    <!-- Map -->
+    <div class="map tile">
+      <div class="map__frame" data-map>
+        <noscript><p class="small" style="padding:24px">Map loads with JavaScript. <span class="ph" data-ph="ADDRESS">Address</span></p></noscript>
+      </div>
+      <div class="map__pin" aria-hidden="true"><span></span></div>
+      <div class="map__card">
+        <div class="map__badge">Rooftop Location</div>
+        <p class="label">Find us in Udaipur</p>
+        <p class="map__addr"><span class="ph" data-ph="ADDRESS">Top Floor, 57 Ambavgarh, near Lake Pichola, Udaipur 313001</span></p>
+        <div class="map__highlights">
+          <span class="m-pill">Facing City Palace</span>
+          <span class="m-pill">Direct Lake Pichola View</span>
+          <span class="m-pill">Covered Rooftop Lounge</span>
+        </div>
+        <a class="btn btn--green btn--sm" data-live="mapsLink" href="#visit" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- Booking composer -->
+    <form class="book tile tile--stone" data-book novalidate aria-labelledby="book-h">
+      <div class="book__header">
+        <div>
+          <h3 id="book-h" class="h3">Reserve Your Table</h3>
+          <p class="small muted">Direct confirmation on WhatsApp with the host</p>
+        </div>
+        <span class="book__tag">Fast Response</span>
+      </div>
+
+      <fieldset class="book__row">
+        <legend class="label">1. Choose Date</legend>
+        <div class="chips" data-dates>
+          <button type="button" class="chip-btn" data-date="0" aria-pressed="true">Today</button>
+          <button type="button" class="chip-btn" data-date="1" aria-pressed="false">Tomorrow</button>
+          <label class="chip-btn chip-btn--pick">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span data-live="pickLabel">Pick a date</span>
+            <input type="date" data-date-pick aria-label="Pick a date">
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="book__row">
+        <legend class="label">2. Preferred Time <span class="small muted" data-live="timeNote"></span></legend>
+        <div class="chips chips--time" data-times></div>
+      </fieldset>
+
+      <div class="book__grid">
+        <fieldset class="book__row">
+          <legend class="label">3. Guests</legend>
+          <div class="stepper">
+            <button type="button" class="stepper__b" data-step="-1" aria-label="One fewer guest">−</button>
+            <output class="stepper__v tnum" data-guests aria-live="polite">2</output>
+            <button type="button" class="stepper__b" data-step="1" aria-label="One more guest">+</button>
+          </div>
+        </fieldset>
+        <div class="book__row">
+          <label class="label" for="occ">Occasion</label>
+          <select id="occ" class="select" data-occasion>
+            <option value="">Just dinner / drinks</option>
+            <option value="sunset">Sunset table (Railing vista)</option>
+            <option value="a date night">Date night / Romantic</option>
+            <option value="a birthday">Birthday celebration</option>
+            <option value="an anniversary">Anniversary celebration</option>
+            <option value="a work dinner">Family or work gathering</option>
+          </select>
+        </div>
+        <div class="book__row book__row--full">
+          <label class="label" for="bname">Guest Name (Optional)</label>
+          <input id="bname" class="input" data-name autocomplete="name" placeholder="Your name for the reservation">
+        </div>
+      </div>
+
+      <div class="book__preview">
+        <div class="preview__header">
+          <span class="label">WhatsApp Message Preview</span>
+          <span class="preview__badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Ready to send</span>
+        </div>
+        <p class="book__msg" data-live="bookMsg" aria-live="polite"></p>
+      </div>
+      <p class="small book__group" data-live="groupNote" hidden>Planning for more than 12 guests? Group packages &amp; private terrace sections available on WhatsApp.</p>
+      <div class="book__actions">
+        <a class="btn btn--clay btn--lg book__wa-btn" data-live="bookWa" href="#" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Book on WhatsApp
+        </a>
+        <a class="btn btn--line" data-live="tel" href="#visit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call <span class="ph" data-ph="PHONE">+91 98290 12345</span>
+        </a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Know before you go → also FAQPage JSON-LD (generated at build from data-q) -->
+  <div class="kbg">
+    <div class="kbg__header">
+      <p class="label">Guest Information</p>
+      <h3 class="h3 kbg__h">Know Before You Go</h3>
+    </div>
+    <div class="kbg__grid">
+      <article class="kb rv" data-q="Where is Kudos Restro Lounge in Udaipur?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <p class="label">Location &amp; Address</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="ADDRESS">Top floor, 57 Ambavgarh, Udaipur</span></p>
+        <p class="kb__a">We're on the roof, so look up, not around. Tell the auto driver Ambavgarh, near Lake Pichola and you'll land at the door. The view across Lake Pichola to the City Palace starts the moment you reach the top.</p>
+      </article>
+      <article class="kb rv" data-q="Is there parking near Kudos, and how do I get there?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="7" cy="15" r="2"/><circle cx="17" cy="15" r="2"/></svg></span>
+          <p class="label">Getting here &amp; parking</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="PARKING">Street parking nearby; designated lots available</span></p>
+        <p class="kb__a">Old-city lanes are narrow and get narrower after dark. An auto or cab to the door is the stress-free option. If you're driving, park first and walk the last few minutes.</p>
+      </article>
+      <article class="kb kb--hours rv" data-q="What are the opening hours of Kudos Restro Lounge?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+          <p class="label">Hours &amp; Kitchen Last Orders</p>
+        </div>
+        <table class="kb__hours tnum" data-live="hoursTable"><tbody><tr><th>Every day</th><td><span class="ph" data-ph="HOURS">12:00 PM – 1:00 AM</span></td></tr></tbody></table>
+        <p class="kb__a">Lunch from noon, golden hour around sunset, and the roof stays open until late. Kitchen last orders 12:30 AM.</p>
+      </article>
+      <article class="kb rv" data-q="Which is the best table for sunset at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+          <p class="label">Best table for sunset</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="BEST_TABLE_FOR_SUNSET">The railing tables facing the lake</span></p>
+        <p class="kb__a">Ask for it by name when you book; it goes first. Sunset today is at <strong class="tnum" data-live="sunsetShort3">—</strong>, so aim to be seated thirty minutes before.</p>
+      </article>
+      <article class="kb rv" data-q="What happens at the rooftop if it rains?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"/><line x1="8" y1="19" x2="8" y2="21"/><line x1="12" y1="17" x2="12" y2="23"/><line x1="16" y1="19" x2="16" y2="21"/></svg></span>
+          <p class="label">Rain &amp; monsoon weather</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="WEATHER_POLICY">Covered roof and an enclosed glass room</span></p>
+        <p class="kb__a">The terrace sits under a canopy and the glass room is fully enclosed, so rain changes the view, not the plan. On properly stormy nights we'll move you inside before you have to ask.</p>
+      </article>
+      <article class="kb rv" data-q="Can Kudos host large groups and private celebrations?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <p class="label">Groups &amp; Celebrations</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="LARGE_GROUPS">Up to 40 seated; larger by arrangement</span></p>
+        <p class="kb__a">Birthdays, anniversaries, the office dinner nobody wanted to organise. Message us the date and the headcount and we'll come back with a layout and a menu.</p>
+      </article>
+      <article class="kb rv" data-q="Is there a dress code at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg></span>
+          <p class="label">Dress code</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="DRESS_CODE">Smart casual</span></p>
+        <p class="kb__a">Nobody's checking collars. It's a nice room with a nice view; most people dress for it, especially on Saturdays.</p>
+      </article>
+      <article class="kb rv" data-q="Is Kudos family friendly? Are children allowed?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+          <p class="label">Family &amp; Children</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="CHILDREN">Welcome for lunch and early dinner</span></p>
+        <p class="kb__a">Families do well at lunch and through golden hour. After ten the music is louder and the roof leans grown-up, so plan the early slot if you're bringing little ones.</p>
+      </article>
+      <article class="kb rv" data-q="Does Kudos serve vegetarian food?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+          <p class="label">Vegetarian &amp; Jain Friendly</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="VEG_POLICY">Separate veg preparation; Jain on request</span></p>
+        <p class="kb__a">Vegetarian isn't an afterthought here: half the dishes on this page are veg, the Sham Savera and the lasagna included.</p>
+      </article>
+      <article class="kb rv" data-q="How far in advance should I book a table at Kudos?">
+        <div class="kb__head">
+          <span class="kb__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <p class="label">Reservation Lead Time</p>
+        </div>
+        <p class="kb__v"><span class="ph" data-ph="RESERVATION_LEAD_TIME">Same day on weeknights; 1–2 days for Saturdays</span></p>
+        <p class="kb__a">Weeknights, a few hours ahead usually works. Saturdays, sunset tables and groups go first, so book those a day or two out.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ───────────────────────── FOOTER ───────────────────────── -->
+<footer class="foot wrap">
+  <div class="panel panel--forest foot__panel">
+    <p class="foot__word" aria-hidden="true">KUDOS</p>
+    <p class="foot__lockup">Simple Food. Good Food. Great Evenings.</p>
+    <div class="foot__grid">
+      <div>
+        <p class="label">Kudos Restro Lounge</p>
+        <p>A rooftop destination in Udaipur.<br>Founded by Vathsaal Jogani.</p>
+      </div>
+      <div>
+        <p class="label">Find us</p>
+        <p><span class="ph" data-ph="ADDRESS">Top floor, {{street}}, Udaipur 313001</span></p>
+        <p><span class="ph" data-ph="HOURS">Open daily, 12 PM – 1 AM</span></p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="label">On this page</p>
+        <ul role="list"><li><a href="#tonight">Tonight</a></li><li><a href="#food">Food</a></li><li><a href="#story">Story</a></li><li><a href="#hours">Hours</a></li><li><a href="#events">Events</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#visit">Visit</a></li></ul>
+      </nav>
+      <div>
+        <p class="label">Say hello</p>
+        <ul role="list">
+          <li><a data-live="igLink" href="#"><span class="ph" data-ph="INSTAGRAM">Instagram</span></a></li>
+          <li><a data-live="waLink" href="#visit"><span class="ph" data-ph="WHATSAPP">WhatsApp</span></a></li>
+          <li><a data-live="tel2" href="#visit"><span class="ph" data-ph="PHONE">Call</span></a></li>
+          <li><a data-live="menuLink" href="#food"><span class="ph" data-ph="MENU_PDF_URL">Full menu (PDF)</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot__base small"><span><strong>KUDOS RESTRO LOUNGE</strong> — Simple Food. Good Food. Great Evenings.</span> <span class="foot__copy">© <span data-live="year">2026</span></span></p>
+  </div>
+</footer>
+
+<!-- Mobile action bar (appears after 30% scroll) -->
+<nav class="mbar" aria-label="Quick actions">
+  <a data-live="menuLink2" href="#food">Menu</a>
+  <a data-live="waLink2" href="#visit">WhatsApp</a>
+  <a data-live="tel3" href="#visit">Call</a>
+</nav>
+
+<!-- Shared lightbox (dishes + gallery) -->
+<dialog class="lb" aria-label="Photo viewer">
+  <div class="lb__stage"></div>
+  <div class="lb__bar">
+    <p class="lb__cap" aria-live="polite"></p>
+    <p class="lb__count small tnum"></p>
+    <div class="lb__nav">
+      <button class="lb__b" data-lb-prev aria-label="Previous photo">←</button>
+      <button class="lb__b" data-lb-next aria-label="Next photo">→</button>
+      <button class="lb__b" data-lb-close aria-label="Close">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/vendor/lenis.min.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
